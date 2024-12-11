@@ -30,7 +30,7 @@
                     <!-- Contact Form -->
                     <div class="mb-12 lg:mb-0 lg:w-2/3 lg:pr-12">
                         <h2 class="mb-4 font-display text-xl text-jacarta-700 dark:text-white text-center">Sorularınızı Bize İlet</h2>
-                        <form id="contact-form" method="post">
+                        <form>
                             <div class="flex space-x-7">
                                 <div class="mb-6 w-1/2">
                                     <label for="name" class="mb-1 block font-display text-sm text-jacarta-700 dark:text-white"
