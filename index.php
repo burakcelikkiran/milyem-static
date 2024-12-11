@@ -181,7 +181,7 @@
                 Milyem Logosunun Saklı Hikayesi
               </h2>
               <p class="mb-12 text-lg leading-normal text-white dark:text-jacarta-300 italic">
-                Bir kantar… Asırlardır güvenin ve emeğin simgesi. Kapalı Çarşı’nın dar sokaklarında, altının değerini hassasiyetle tartan ellerden ilham aldık. Şimdi, dijital dönüşümle birlikte o değer, Milyem Gold ile bin parçaya bölündü ve herkesin paylaşabileceği bir hikayeye dönüştü. Çünkü bizce altın, sadece bir maden değil; geçmişin emeğini geleceğin dijital dünyasına taşıyan bir 
+                Bir kantar… Asırlardır güvenin ve emeğin simgesi. Kapalı Çarşı'nın dar sokaklarında, altının değerini hassasiyetle tartan ellerden ilham aldık. Şimdi, dijital dönüşümle birlikte o değer, Milyem Gold ile bin parçaya bölündü ve herkesin paylaşabileceği bir hikayeye dönüştü. Çünkü bizce altın, sadece bir maden değil; geçmişin emeğini geleceğin dijital dünyasına taşıyan bir 
                 mirastır.
               </p>
             
@@ -640,7 +640,7 @@
                   <h2 class="accordion-header" id="faq-heading-3">
                     <button class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-jacarta-700 dark:bg-jacarta-700 dark:text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false" aria-controls="faq-3">
                   <span>
-                    3. Milyem Gold’a nasıl üye olabilirim? Üyelik ücretli mi?
+                    3. Milyem Gold'a nasıl üye olabilirim? Üyelik ücretli mi?
                   </span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="accordion-arrow h-4 w-4 shrink-0 fill-jacarta-700 transition-transform dark:fill-white">
                         <path fill="none" d="M0 0h24v24H0z"></path>
@@ -651,7 +651,7 @@
                   <div id="faq-3" class="accordion-collapse collapse" aria-labelledby="faq-heading-3" data-bs-parent="#accordionFAQ">
                     <div class="accordion-body border-t border-jacarta-100 bg-white p-4 dark:border-jacarta-600 dark:bg-jacarta-700">
                       <p class="dark:text-jacarta-200">
-                        Milyem Gold’a üye olmak tamamen ücretsizdir. Üyelik işlemleri için milyemgold.com web sitesine giriş yaparak kayıt formundaki bilgileri doldurmanız yeterlidir. Kayıt işlemini tamamladıktan sonra sistemin sunduğu tüm hizmetlerden kolaylıkla yararlanabilirsiniz.
+                        Milyem Gold'a üye olmak tamamen ücretsizdir. Üyelik işlemleri için milyemgold.com web sitesine giriş yaparak kayıt formundaki bilgileri doldurmanız yeterlidir. Kayıt işlemini tamamladıktan sonra sistemin sunduğu tüm hizmetlerden kolaylıkla yararlanabilirsiniz.
                       </p>
                     </div>
                   </div>
@@ -873,9 +873,13 @@
         <div class="container">
           <div class="relative overflow-hidden rounded-2.5xl px-16 py-8 shadow-md lg:px-24">
             <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
+              <source srcset="/img/webp/milyem/f4f4f4.webp" type="image/webp">
+              <source srcset="/img/milyem/f4f4f4.png" type="image/png">
               <img src="img/milyem/f4f4f4.png" alt="gradient" class="h-full w-full" />
             </picture>
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
+              <source srcset="/img/webp/milyem/f4f4f4.webp" type="image/webp">
+              <source srcset="/img/milyem/f4f4f4.png" type="image/png">
               <img src="img/milyem/f4f4f4.png" alt="gradient dark" class="h-full w-full" />
             </picture>
             <div class="items-center justify-between md:flex">
