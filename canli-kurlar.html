@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="TR" dir="ltr">
+  <head>
+    <title>Canlı Kurlar | Milyem Gold</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Milyem Gold canlı altın ve döviz kurları" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  </head>
+
+  <body class="overflow-x-hidden font-body text-jacarta-500 dark:bg-jacarta-900">
+    <!-- Header buraya gelecek -->
+
+    <main>
+      <section class="relative pt-32 pb-24">
+        <div class="container">
+          <h1 class="mb-8 text-center font-display text-3xl text-jacarta-700 dark:text-white">
+            Canlı Kurlar
+          </h1>
+
+          <!-- Tablo -->
+          <div class="rounded-lg bg-white dark:bg-jacarta-700 dark:text-jacarta-300 container" style="box-shadow: 0 0 20px 10px #f9f4d59e;">
+            <div class="flex items-center border-b border-jacarta-600 dark:border-jacarta-600">
+              <div class="text-xl font-bold w-[40%] px-3 py-5 text-center text-[#caa754]">İsim</div>
+              <div class="text-xl font-bold w-[20%] px-3 py-5 text-center text-[#caa754]">Alış</div>
+              <div class="text-xl font-bold w-[20%] px-3 py-5 text-center text-[#caa754]">Satış</div>
+              <div class="text-xl font-bold w-[20%] px-3 py-5 text-center text-[#caa754]">Değişim</div>
+            </div>
+            <div id="priceTableBody" class="divide-y divide-jacarta-100 dark:divide-jacarta-600">
+              <!-- Veriler JavaScript ile doldurulacak -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer buraya gelecek -->
+
+    <!-- Socket.IO Client -->
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+
+
+    <!-- Custom JS -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        let previousPrices = {};
+        let ws = null;
+        let reconnectAttempts = 0;
+        const maxReconnectAttempts = 5;
+
+        function connect() {
+          ws = new WebSocket('wss://socket.haremaltin.com/socket.io/?EIO=4&transport=websocket');
+
+          ws.onopen = () => {
+            console.log('WebSocket bağlantısı açıldı');
+            reconnectAttempts = 0;
+            
+            // Socket.IO el sıkışma protokolü
+            ws.send('40');
+            
+            // Ping mesajlarını başlat
+            startPing();
+          };
+
+          ws.onmessage = (event) => {
+            console.log('Ham veri alındı:', event.data);
+            
+            try {
+              // Socket.IO protokol mesajlarını işle
+              if (event.data === '40') {
+                // Bağlantı kabul edildi, subscribe gönder
+                const subscribeMsg = '42["subscribe",["USDTRY","EURTRY","GA","XAU/USD","ALTIN","GUMUS"]]';
+                ws.send(subscribeMsg);
+              }
+              else if (event.data === '2') {
+                // Ping mesajına pong ile yanıt ver
+                ws.send('3');
+              }
+              else if (event.data.startsWith('42')) {
+                const jsonStr = event.data.substring(2);
+                const data = JSON.parse(jsonStr);
+                console.log('Parse edilmiş veri:', data);
+                
+                // price_changed eventini yakala
+                if (data[0] === 'price_changed' && data[1].data) {
+                  updatePriceTable(data[1].data);
+                }
+              }
+            } catch (error) {
+              console.error('Veri parse hatası:', error);
+            }
+          };
+
+          ws.onerror = (error) => {
+            console.error('WebSocket hatası:', error);
+          };
+
+          ws.onclose = (event) => {
+            console.log('WebSocket bağlantısı kapandı:', event.code, event.reason);
+            
+            // Yeniden bağlanma mantığı
+            if (reconnectAttempts < maxReconnectAttempts) {
+              reconnectAttempts++;
+              console.log(`Yeniden bağlanma denemesi ${reconnectAttempts}/${maxReconnectAttempts}`);
+              setTimeout(connect, 5000);
+            }
+          };
+        }
+
+        // Ping mesajları gönder
+        function startPing() {
+          const pingInterval = setInterval(() => {
+            if (ws.readyState === WebSocket.OPEN) {
+              ws.send('2');
+            } else {
+              clearInterval(pingInterval);
+            }
+          }, 25000); // Her 25 saniyede bir ping gönder
+
+          // Sayfa kapatılırken interval'i temizle
+          window.addEventListener('beforeunload', () => {
+            clearInterval(pingInterval);
+          });
+        }
+
+        function updatePriceTable(data) {
+          const tableBody = document.getElementById('priceTableBody');
+          
+          if (!data) {
+            console.error('Data boş geldi');
+            return;
+          }
+
+          // İstenen sembolleri tanımla
+          const wantedSymbols = ['ALTIN', 'ONS', 'AYAR22', 'GUMUSTRY'];
+          
+          // Tabloyu temizle
+          tableBody.innerHTML = '';
+
+          try {
+            // Milyem değerlerini hesapla (ALTIN'ın binde biri)
+            const altinData = data['ALTIN'];
+            if (altinData) {
+              const milyemData = {
+                code: 'MILYEM',
+                alis: (parseFloat(altinData.alis) / 1000).toString(),
+                satis: (parseFloat(altinData.satis) / 1000).toString(),
+                dir: altinData.dir // Altın ile aynı yön
+              };
+              // Milyem'i data objesine ekle
+              data['MILYEM'] = milyemData;
+              // İstenen sembollere Milyem'i ekle
+              wantedSymbols.unshift('MILYEM'); // Listenin başına ekle
+            }
+
+            // Sadece istenen sembolleri işle
+            wantedSymbols.forEach(symbol => {
+              const priceData = data[symbol];
+              
+              if (!priceData) {
+                console.warn(`${symbol} için veri bulunamadı`);
+                return;
+              }
+
+              // Fiyat verilerini güvenli bir şekilde al
+              const bid = parseFloat(priceData.alis || 0);
+              const ask = parseFloat(priceData.satis || 0);
+
+              if (isNaN(bid) || isNaN(ask)) {
+                console.warn(`Geçersiz fiyat verisi: ${symbol}`, priceData);
+                return;
+              }
+
+              // Değişim yüzdesini hesapla
+              const prev = previousPrices[symbol] || { satis: ask };
+              const changePercent = ((ask - prev.satis) / prev.satis) * 100;
+
+              // Sembol isimlerini Türkçeleştir
+              const symbolNames = {
+                'MILYEM': 'Milyem',
+                'ALTIN': 'Gram Altın',
+                'ONS': 'Ons Altın',
+                'AYAR22': '22 Ayar Altın',
+                'GUMUSTRY': 'Gram Gümüş'
+              };
+
+              // Yön okları için class ve icon belirle
+              const directionClass = priceData.dir?.satis_dir === 'up' ? '!text-green-500' : 
+                                   priceData.dir?.satis_dir === 'down' ? '!text-red-500' : 
+                                   'text-jacarta-700 dark:text-white';
+
+              const directionIcon = priceData.dir?.satis_dir === 'up' ? '↑' : 
+                                  priceData.dir?.satis_dir === 'down' ? '↓' : 
+                                  '';
+
+              // Nokta ile ayrılmış sayıyı virgülle ayrılmış formata çeviren fonksiyon
+              function formatPrice(number) {
+                // Önce sayıyı 3 basamaklı ondalık kısmıyla string'e çevir
+                let priceStr = number.toFixed(3);
+                
+                // Nokta ile ondalık kısmı ayır
+                let [wholePart, decimalPart] = priceStr.split('.');
+                
+                // Tam kısmı 3'erli grupla ve nokta ile ayır
+                wholePart = wholePart.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+                
+                // Tam kısım ve ondalık kısmı virgül ile birleştir
+                return `${wholePart},${decimalPart}`;
+              }
+
+              // Satır div'ini oluştur
+              const row = document.createElement('div');
+              row.className = 'flex items-center border-t border-jacarta-100 dark:border-jacarta-600 px-3 py-4';
+              
+              row.innerHTML = `
+                <div class="crypto-price__coin flex w-[25%] items-center px-3 py-5">
+                    <div class="crypto-price__name flex-1 font-display font-semibold text-lg text-center">
+                        <span class="text-jacarta-700 dark:text-white mr-3">${symbolNames[symbol] || symbol}</span>
+                    </div>
+                </div>
+                <div class="crypto-price__price text-center text-lg w-[20%] px-3 py-5 text-jacarta-700 dark:text-white ${directionClass}">
+                  <span class=" ${directionClass}">${formatPrice(bid)} ${directionIcon}</span>
+                </div>
+                <div class="crypto-price__volume w-[20%] text-center text-lg md:block px-3 py-5 ${directionClass}">
+                  <span class="${directionClass}">${formatPrice(ask)} ${directionIcon}</span>
+                </div>
+                <div class="crypto-price__change  text-center text-lg w-[15%] px-3 py-5 ${directionClass}">
+                  <span class=" ${directionClass}">${changePercent > 0 ? '+' : ''}${changePercent.toFixed(2).replace('.', ',')}% ${directionIcon}</span>
+                </div>
+              `;
+              
+              tableBody.appendChild(row);
+            });
+
+            // Önceki fiyatları güncelle
+            const filteredData = {};
+            wantedSymbols.forEach(symbol => {
+              if (data[symbol]) {
+                filteredData[symbol] = data[symbol];
+              }
+            });
+            previousPrices = filteredData;
+            
+          } catch (error) {
+            console.error('Tablo güncelleme hatası:', error);
+          }
+        }
+
+        // İlk bağlantıyı başlat
+        connect();
+
+        // Sayfa kapatılırken bağlantıyı temiz bir şekilde kapat
+        window.addEventListener('beforeunload', () => {
+          if (ws && ws.readyState === WebSocket.OPEN) {
+            ws.close(1000, 'Sayfa kapatıldı');
+          }
+        });
+      });
+    </script>
+
+    <!-- JS Scripts -->
+    <script src="./js/app.bundle.js"></script>
+  </body>
+</html> 
