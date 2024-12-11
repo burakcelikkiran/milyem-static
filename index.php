@@ -720,72 +720,128 @@
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_1.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_1.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_1.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_1.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_2.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_2.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_2.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_2.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_3.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_3.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_3.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_3.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_4.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_4.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_4.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_4.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_5.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_5.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_5.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_5.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_6.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_6.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_6.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_6.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_7.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_7.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_7.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_7.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_1.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_1.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_1.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_1.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_2.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_2.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_2.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_2.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_3.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_3.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_3.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_3.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_4.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_4.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_4.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_4.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_5.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_5.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_5.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_5.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_6.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_6.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_6.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_6.jpg" alt="" />
+            </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
-            <img src="img/dao/partner_dao_7.jpg" alt="" />
+            <picture>
+                <source srcset="/img/webp/dao/partner_dao_7.webp" type="image/webp">
+                <source srcset="/img/dao/partner_dao_7.jpg" type="image/jpeg">
+                <img src="img/dao/partner_dao_7.jpg" alt="" />
+            </picture>
           </div>
         </div>
       
@@ -837,7 +893,11 @@
                   İletişime Geç
                 </a>
               </div>
-              <img src="img/milyem/iletisim-new.png" class="max-w-[350px]" alt="" />
+              <picture>
+                  <source srcset="/img/webp/milyem/iletisim-new.webp" type="image/webp">
+                  <source srcset="/img/milyem/iletisim-new.png" type="image/png">
+                  <img src="img/milyem/iletisim-new.png" class="max-w-[350px]" alt="" />
+              </picture>
             </div>
           </div>
         </div>
