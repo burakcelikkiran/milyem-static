@@ -371,12 +371,12 @@
                       <picture>
                           <source srcset="/img/webp/milyem/nasil-milyem/uyelik.webp" type="image/webp">
                           <source srcset="/img/milyem/nasil-milyem/uyelik.png" type="image/png">
-                          <img src="/img/milyem/nasil-milyem/uyelik.png" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                          <img src="/img/milyem/nasil-milyem/uyelik.png" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                       </picture>
-                      <picture>
+                      <picture class="absolute animate-spin-slow">
                           <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
                           <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                          <img src="/img/milyem/how-purchase.png" class="absolute animate-spin-slow" />
+                          <img src="/img/milyem/how-purchase.png" />
                       </picture>
                   </figure>
                 </div>
@@ -388,14 +388,14 @@
                 >
                   <figure class="flex items-center justify-center">
                     <picture>
-                        <source srcset="/img/webp/milyem/kulce1.webp" type="image/webp">
-                        <source srcset="/img/milyem/kulce1.png" type="image/png">
-                        <img src="/img/milyem/külce1.png" alt="" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                        <source srcset="/img/webp/milyem/nasil-milyem/guvenlik.webp" type="image/webp">
+                        <source srcset="/img/milyem/nasil-milyem/guvenlik.png" type="image/png">
+                        <img src="/img/milyem/nasil-milyem/guvenlik.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                     </picture>
-                    <picture>
+                    <picture class="absolute animate-spin-slow">
                         <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
                         <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                        <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                        <img src="/img/milyem/how-purchase.png" />
                     </picture>
                   </figure>
                 </div>
@@ -407,14 +407,14 @@
                 >
                   <figure class="flex items-center justify-center">
                     <picture>
-                        <source srcset="/img/webp/milyem/kulce1.webp" type="image/webp">
-                        <source srcset="/img/milyem/kulce1.png" type="image/png">
-                        <img src="/img/milyem/külce1.png" alt="" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                        <source srcset="/img/webp/milyem/nasil-milyem/sepet.webp" type="image/webp">
+                        <source srcset="/img/milyem/nasil-milyem/sepet.png" type="image/png">
+                        <img src="/img/milyem/nasil-milyem/sepet.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                     </picture>
-                    <picture>
+                    <picture class="absolute animate-spin-slow">
                         <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
                         <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                        <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                        <img src="/img/milyem/how-purchase.png" />
                     </picture>
                   </figure>
                 </div>
@@ -426,14 +426,14 @@
                 >
                   <figure class="flex items-center justify-center">
                     <picture>
-                        <source srcset="/img/webp/milyem/kulce1.webp" type="image/webp">
-                        <source srcset="/img/milyem/kulce1.png" type="image/png">
-                        <img src="/img/milyem/külce1.png" alt="" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                        <source srcset="/img/webp/milyem/nasil-milyem/odeme.webp" type="image/webp">
+                        <source srcset="/img/milyem/nasil-milyem/odeme.png" type="image/png">
+                        <img src="/img/milyem/nasil-milyem/odeme.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                     </picture>
-                    <picture>
+                    <picture class="absolute animate-spin-slow">
                         <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
                         <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                        <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                        <img src="/img/milyem/how-purchase.png" />
                     </picture>
                   </figure>
                 </div>
@@ -445,14 +445,14 @@
                 >
                   <figure class="flex items-center justify-center">
                     <picture>
-                        <source srcset="/img/webp/milyem/kulce1.webp" type="image/webp">
-                        <source srcset="/img/milyem/kulce1.png" type="image/png">
-                        <img src="/img/milyem/külce1.png" alt="" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                        <source srcset="/img/webp/milyem/nasil-milyem/cevir.webp" type="image/webp">
+                        <source srcset="/img/milyem/nasil-milyem/cevir.png" type="image/png">
+                        <img src="/img/milyem/nasil-milyem/cevir.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                     </picture>
-                    <picture>
+                    <picture class="absolute animate-spin-slow">
                         <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
                         <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                        <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                        <img src="/img/milyem/how-purchase.png" />
                     </picture>
                   </figure>
                 </div>
