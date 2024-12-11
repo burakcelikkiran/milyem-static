@@ -387,12 +387,16 @@
                   aria-labelledby="voting-power-tab"
                 >
                   <figure class="flex items-center justify-center">
-                    <img
-                      src="/img/milyem/külce1.png"
-                      alt=""
-                      class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]"
-                    />
-                    <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                    <picture>
+                        <source srcset="/img/webp/milyem/kulce1.webp" type="image/webp">
+                        <source srcset="/img/milyem/kulce1.png" type="image/png">
+                        <img src="/img/milyem/külce1.png" alt="" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                    </picture>
+                    <picture>
+                        <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
+                        <source srcset="/img/milyem/how-purchase.png" type="image/png">
+                        <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                    </picture>
                   </figure>
                 </div>
                 <div
@@ -402,12 +406,16 @@
                   aria-labelledby="rewards-income-tab"
                 >
                   <figure class="flex items-center justify-center">
-                    <img
-                    src="/img/milyem/külce1.png"
-                    alt=""
-                    class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]"
-                  />
-                    <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                    <picture>
+                        <source srcset="/img/webp/milyem/kulce1.webp" type="image/webp">
+                        <source srcset="/img/milyem/kulce1.png" type="image/png">
+                        <img src="/img/milyem/külce1.png" alt="" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                    </picture>
+                    <picture>
+                        <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
+                        <source srcset="/img/milyem/how-purchase.png" type="image/png">
+                        <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                    </picture>
                   </figure>
                 </div>
                 <div
@@ -417,12 +425,16 @@
                   aria-labelledby="complete-decentralization-tab"
                 >
                   <figure class="flex items-center justify-center">
-                    <img
-                      src="/img/milyem/külce1.png"
-                      alt=""
-                      class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]"
-                    />
-                    <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                    <picture>
+                        <source srcset="/img/webp/milyem/kulce1.webp" type="image/webp">
+                        <source srcset="/img/milyem/kulce1.png" type="image/png">
+                        <img src="/img/milyem/külce1.png" alt="" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                    </picture>
+                    <picture>
+                        <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
+                        <source srcset="/img/milyem/how-purchase.png" type="image/png">
+                        <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                    </picture>
                   </figure>
                 </div>
                 <div
@@ -432,12 +444,16 @@
                   aria-labelledby="nft-yield-farming-tab"
                 >
                   <figure class="flex items-center justify-center">
-                    <img
-                      src="/img/milyem/külce1.png"
-                      alt=""
-                      class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]"
-                    />
-                    <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                    <picture>
+                        <source srcset="/img/webp/milyem/kulce1.webp" type="image/webp">
+                        <source srcset="/img/milyem/kulce1.png" type="image/png">
+                        <img src="/img/milyem/külce1.png" alt="" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                    </picture>
+                    <picture>
+                        <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
+                        <source srcset="/img/milyem/how-purchase.png" type="image/png">
+                        <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                    </picture>
                   </figure>
                 </div>
               </div>
