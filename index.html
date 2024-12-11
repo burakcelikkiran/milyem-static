@@ -1235,7 +1235,7 @@
       };
 
       ws.onmessage = (event) => {
-        console.log('Ham veri alındı:', event.data);
+        // console.log('Ham veri alındı:', event.data);
         
         try {
           // Socket.IO protokol mesajlarını işle
@@ -1251,7 +1251,7 @@
           else if (event.data.startsWith('42')) {
             const jsonStr = event.data.substring(2);
             const data = JSON.parse(jsonStr);
-            console.log('Parse edilmiş veri:', data);
+            // console.log('Parse edilmiş veri:', data);
             
             // price_changed eventini yakala
             if (data[0] === 'price_changed' && data[1].data) {
