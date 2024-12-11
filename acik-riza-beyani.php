@@ -12,11 +12,15 @@
 
     <main class="pt-[5.5rem] lg:pt-24">
         <section class="relative py-16 dark:bg-jacarta-800 md:py-24">
-            <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                <img src="/img/milyem/gradient-inpage.png" alt="gradient" class="h-full w-full" />
-            </picture>
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                <img src="/img/milyem/gradient-inpage.png" alt="gradient dark" class="h-full w-full" />
+                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
+                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+            </picture>
+            <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
+                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
+                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <div class="container">
                 <h1 class="text-center font-display text-4xl font-medium text-jacarta-700 dark:text-white">

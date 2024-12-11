@@ -13,8 +13,16 @@
     <main>
       <!-- Hero -->
       <section class="relative pb-48 pt-20 lg:pt-32 2xl:pt-48 bg-no-repeat bg-cover min-h-[90vh] bg-left-top" style="background-image: url('img/milyem/background-2.png');">
-        <img src="img/milyem/yuvarlak_613_415.png" alt="milyem donut" class="absolute right-0 top-0 max-w-[400px] lg:max-w-[600px] 2xl:max-w-[800px] opacity-50 z-10" />
-        <img src="img/milyem/gold.png" alt="külçe donut" class="absolute left-0 bottom-[15%] max-w-[400px] opacity-50 z-10" />
+          <picture>
+              <source srcset="/img/webp/milyem/yuvarlak_613_415.webp" type="image/webp">
+              <source srcset="/img/milyem/yuvarlak_613_415.png" type="image/png">
+              <img src="/img/milyem/yuvarlak_613_415.png" alt="Milyem donut" class="absolute right-0 top-0 max-w-[400px] lg:max-w-[600px] 2xl:max-w-[800px] opacity-50 z-10" />
+          </picture>
+          <picture>
+              <source srcset="/img/webp/milyem/gold.webp" type="image/webp">
+              <source srcset="/img/milyem/gold.png" type="image/png">
+              <img src="/img/milyem/gold.png" alt="külçe donut" class="absolute left-0 bottom-[15%] max-w-[400px] opacity-50 z-10" />
+          </picture>
 
         <div class="ml-auto mr-auto h-full max-w-[91rem] px-4 z-20 relative">
           <div class="h-full items-center gap-4 lg:grid lg:grid-cols-12">
@@ -30,7 +38,11 @@
                   <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
                   <figure class="mr-2 2xl:mr-4 shrink-0">
                     <a href="#" class="relative block">
-                      <img src="img/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy">
+                        <picture>
+                            <source srcset="/img/webp/milyem/100_100.webp" type="image/webp">
+                            <source srcset="/img/milyem/100_100.png" type="image/png">
+                            <img src="/img/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
+                        </picture>
                     </a>
                   </figure>
                   <div>
@@ -43,7 +55,11 @@
                 <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
                   <figure class="mr-2 2xl:mr-4 shrink-0">
                     <a href="#" class="relative block">
-                      <img src="img/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy">
+                        <picture>
+                            <source srcset="/img/webp/milyem/100_100.webp" type="image/webp">
+                            <source srcset="/img/milyem/100_100.png" type="image/png">
+                            <img src="/img/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
+                        </picture>
                     </a>
                   </figure>
                   <div>
@@ -56,8 +72,11 @@
                 <div class="cursor-pointer group flex rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
                   <figure class="mr-2 2xl:mr-4">
                     <a href="#" class="relative block">
-                      <img src="img/milyem/coin_milyem.png" alt="milyem gold" class="rounded-2lg max-w-[55px] transition-transform duration-500 animate-spin-mid" loading="lazy">
-                  
+                        <picture>
+                            <source srcset="/img/webp/milyem/coin_milyem.webp" type="image/webp">
+                            <source srcset="/img/milyem/coin_milyem.png" type="image/png">
+                            <img src="/img/milyem/coin_milyem.png" alt="milyem coin" class="rounded-2lg max-w-[55px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
+                        </picture>
                     </a>
                   </figure>
                   <div>
@@ -73,12 +92,14 @@
             <!-- Hero image -->
             <div class="col-span-5">
               <div class="relative text-center lg:pl-32 lg:text-right">
-                <div
-                  class="absolute top-1/3 lg:top-[12%] inline-block animate-fly rounded-2lg border-2 border-[#caa754] bg-white p-3 lg:p-4 2xl:p-6 shadow-2xl sm:left-[5%] md:left-20 lg:-left-0 2xl:left-[8%]"
-                >
+                <div class="absolute top-1/3 lg:top-[12%] inline-block animate-fly rounded-2lg border-2 border-[#caa754] bg-white p-3 lg:p-4 2xl:p-6 shadow-2xl sm:left-[5%] md:left-20 lg:-left-0 2xl:left-[8%]">
                   <div class="flex gap-4">
                     <span class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white">
-                      <img src="img/milyem/1000_1000_karesiz.png" alt="">
+                        <picture>
+                            <source srcset="/img/webp/milyem/1000_1000_karesiz.webp" type="image/webp">
+                            <source srcset="/img/milyem/1000_1000_karesiz.png" type="image/png">
+                            <img src="/img/milyem/1000_1000_karesiz.png" />
+                        </picture>
                     </span>
                     <div class="text-left">
                       <span class="block font-display text-xl lg:text-2xl 2xl:text-3xl text-black">1 MLYM</span>
@@ -86,17 +107,14 @@
                     </div>
                   </div>
                 </div>
-                <img
-                  src="img/milyem/kapalıcars.png"
-                  alt="crypto consultant hero"
-                  class="inline-block rounded-2.5xl border-2 border-[#caa754]"
-                />
+                  <picture>
+                      <source srcset="/img/webp/milyem/kapalıcars.webp" type="image/webp">
+                      <source srcset="/img/milyem/kapalıcars.png" type="image/png">
+                      <img src="/img/milyem/kapalıcars.png" class="inline-block rounded-2.5xl border-2 border-[#caa754]" />
+                  </picture>
 
-                <div
-                  class="absolute bottom-0 sm:bottom-28 lg:-bottom-12 2xl:bottom-8 inline-block animate-fly rounded-2lg border-2 border-[#caa754] bg-white p-3 lg:p-4 2xl:p-6 shadow-2xl -right-[5%] sm:right-[5%] lg:right-[3%] 2xl:-right-[17%]"
-                >
+                <div class="absolute bottom-0 sm:bottom-28 lg:-bottom-12 2xl:bottom-8 inline-block animate-fly rounded-2lg border-2 border-[#caa754] bg-white p-3 lg:p-4 2xl:p-6 shadow-2xl -right-[5%] sm:right-[5%] lg:right-[3%] 2xl:-right-[17%]">
                   <div class="text-left">
-                  
                     <span class="block font-display text-3xl">Toplam Hacim</span>
                     <span class=" block font-display text-sm text-jacarta-600"> 675.434.538 MLYM</span>
                   </div>
@@ -141,14 +159,20 @@
       </section>
       <!-- end hero -->
       <section class="relative py-24 dark:bg-jacarta-800">
-        <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-          <img src="/img/milyem/dark-bg.png" alt="gradient" class="h-full w-full" />
-        </picture>
+          <picture class="pointer-events-none absolute inset-0 -z-10">
+              <source srcset="/img/webp/milyem/dark-bg.webp" type="image/webp">
+              <source srcset="/img/milyem/dark-bg.png" type="image/png">
+              <img src="/img/milyem/dark-bg.png" class="h-full w-full" />
+          </picture>
         <div class="container">
           <div class="lg:flex lg:justify-between">
             <!-- Image -->
             <div class="relative pr-6 lg:w-[33%]">
-              <img src="img/milyem/milyem.png" class="w-full" alt="" loading="lazy" />
+                <picture>
+                    <source srcset="/img/webp/milyem/milyem.webp" type="image/webp">
+                    <source srcset="/img/milyem/milyem.png" type="image/png">
+                    <img src="/img/milyem/milyem.png" class=" w-full" />
+                </picture>
             </div>
 
             <!-- Info -->
@@ -180,7 +204,11 @@
                 <li class="nav-item" role="presentation">
                   <button class="nav-link nav-link--style-2 active group relative flex w-full border-b border-jacarta-100 p-6 text-left dark:border-jacarta-600"
                     id="ownership-tab" data-bs-toggle="tab" data-bs-target="#ownership" type="button" role="tab" aria-controls="ownership" aria-selected="true">
-                    <img src="/img/milyem/nasil-milyem/uyelik.png" class="mr-2 h-12 w-12 flex-shrink-0">
+                      <picture>
+                          <source srcset="/img/webp/milyem/nasil-milyem/uyelik.webp" type="image/webp">
+                          <source srcset="/img/milyem/nasil-milyem/uyelik.png" type="image/png">
+                          <img src="/img/milyem/nasil-milyem/uyelik.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                      </picture>
                     <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium group-hover:text-[#caa754] dark:text-white">
                         Hesabını Oluştur
@@ -204,7 +232,11 @@
                     aria-controls="voting-power"
                     aria-selected="false"
                   >
-                    <img src="/img/milyem/nasil-milyem/guvenlik.png" class="mr-2 h-12 w-12 flex-shrink-0">
+                      <picture>
+                          <source srcset="/img/webp/milyem/nasil-milyem/guvenlik.webp" type="image/webp">
+                          <source srcset="/img/milyem/nasil-milyem/guvenlik.png" type="image/png">
+                          <img src="/img/milyem/nasil-milyem/guvenlik.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                      </picture>
                     <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
                         Hesabını Güvence Altına Al
@@ -228,8 +260,12 @@
                     aria-controls="rewards-income"
                     aria-selected="false"
                   >
-                    <img src="/img/milyem/nasil-milyem/sepet.png" class="mr-2 h-12 w-12 flex-shrink-0">
-                    <div>
+                      <picture>
+                          <source srcset="/img/webp/milyem/nasil-milyem/sepet.webp" type="image/webp">
+                          <source srcset="/img/milyem/nasil-milyem/sepet.png" type="image/png">
+                          <img src="/img/milyem/nasil-milyem/sepet.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                      </picture>
+                      <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
                          Milyemlerini sepete ekle
                       </span>
@@ -252,7 +288,11 @@
                     aria-controls="complete-decentralization"
                     aria-selected="false"
                   >
-                    <img src="/img/milyem/nasil-milyem/odeme.png" class="mr-2 h-12 w-12 flex-shrink-0">
+                      <picture>
+                          <source srcset="/img/webp/milyem/nasil-milyem/odeme.webp" type="image/webp">
+                          <source srcset="/img/milyem/nasil-milyem/odeme.png" type="image/png">
+                          <img src="/img/milyem/nasil-milyem/odeme.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                      </picture>
                     <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
                         Ödemeni gerçekleştir
@@ -276,7 +316,11 @@
                     aria-controls="nft-yield-farming"
                     aria-selected="false"
                   >
-                    <img src="/img/milyem/nasil-milyem/kontrol.png" class="mr-2 h-12 w-12 flex-shrink-0">
+                      <picture>
+                          <source srcset="/img/webp/milyem/nasil-milyem/kontrol.webp" type="image/webp">
+                          <source srcset="/img/milyem/nasil-milyem/kontrol.png" type="image/png">
+                          <img src="/img/milyem/nasil-milyem/kontrol.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                      </picture>
                     <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
                         Siparişini Takip Et
@@ -300,8 +344,12 @@
                     aria-controls="nft-yield-farming"
                     aria-selected="false"
                   >
-                    <img src="/img/milyem/nasil-milyem/cevir.png" class="mr-2 h-12 w-12 flex-shrink-0">
-                    <div>
+                      <picture>
+                          <source srcset="/img/webp/milyem/nasil-milyem/cevir.webp" type="image/webp">
+                          <source srcset="/img/milyem/nasil-milyem/cevir.png" type="image/png">
+                          <img src="/img/milyem/nasil-milyem/cevir.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                      </picture>
+                      <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
                         Altınlarını Fiziki Hale Getir
                       </span>
@@ -320,8 +368,16 @@
               <div class="tab-content flex-1">
                 <div class="tab-pane fade show active relative" id="ownership" role="tabpanel" aria-labelledby="ownership-tab">
                   <figure class="flex items-center justify-center">
-                    <img src="/img/milyem/nasil-milyem/uyelik.png" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]"/>
-                    <img src="/img/milyem/how-purchase.png" alt="" class="absolute animate-spin-slow" />
+                      <picture>
+                          <source srcset="/img/webp/milyem/nasil-milyem/uyelik.webp" type="image/webp">
+                          <source srcset="/img/milyem/nasil-milyem/uyelik.png" type="image/png">
+                          <img src="/img/milyem/nasil-milyem/uyelik.png" class="rounded-full p-14 dark:border-jacarta-600 max-w-[400px]" />
+                      </picture>
+                      <picture>
+                          <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
+                          <source srcset="/img/milyem/how-purchase.png" type="image/png">
+                          <img src="/img/milyem/how-purchase.png" class="absolute animate-spin-slow" />
+                      </picture>
                   </figure>
                 </div>
                 <div

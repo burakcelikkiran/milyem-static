@@ -2,16 +2,22 @@
     <div class="flex items-center px-6 pb-2 pt-4 xl:px-24">
         <!-- Logo -->
         <a href="/index.php" class="shrink-0 p-1 rounded-full">
-            <img src="/img/milyem/logo-and-milyem.png" class="max-h-20 dark:hidden" alt="Milyem Gold |  Marketplace" />
-            <img src="/img/milyem/logo-and-milyem.png" class="hidden max-h-20 dark:block" alt="Milyem Gold |  Marketplace" />
+            <picture>
+                <source srcset="/img/webp/milyem/logo-and-milyem.webp" type="image/webp">
+                <source srcset="/img/milyem/logo-and-milyem.png" type="image/png">
+                <img src="/img/milyem/logo-and-milyem.png" alt="Milyem Gold |  Marketplace" class="max-h-20" />
+            </picture>
         </a>
         <div class="js-mobile-menu invisible lg:visible fixed inset-0 z-10 ml-auto items-center bg-white opacity-0 dark:bg-jacarta-800 lg:relative lg:inset-auto lg:flex lg:bg-transparent lg:opacity-100 dark:lg:bg-transparent">
             <!-- Mobile Logo / Menu Close -->
             <div class="t-0 fixed left-0 z-10 flex w-full items-center justify-between bg-white p-6 dark:bg-jacarta-800 lg:hidden">
                 <!-- Mobile Logo -->
                 <a href="/index.php" class="shrink-0">
-                    <img src="/img/milyem/logo-and-milyem.png" class="max-h-20 dark:hidden" alt="Milyem Gold" />
-                    <img src="/img/milyem/logo-and-milyem.png" class="hidden max-h-20 dark:block" alt="Milyem Gold" />
+                    <picture>
+                        <source srcset="/img/webp/milyem/logo-and-milyem.webp" type="image/webp">
+                        <source srcset="/img/milyem/logo-and-milyem.png" type="image/png">
+                        <img src="/img/milyem/logo-and-milyem.png" alt="Milyem Gold" class="max-h-20" />
+                    </picture>
                 </a>
                 <!-- Mobile Menu Close -->
                 <button class="js-mobile-close group ml-2 flex h-10 w-10 items-center justify-center rounded-full border border-jacarta-100 bg-white transition-colors hover:border-transparent hover:bg-[#caa754] focus:border-transparent focus:bg-[#caa754] dark:border-transparent dark:bg-white/[.15] dark:hover:bg-[#caa754]" aria-label="close mobile menu">

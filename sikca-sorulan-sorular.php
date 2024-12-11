@@ -13,19 +13,24 @@
     <main class="">
         <!-- Benefits -->
         <section class="relative pt-32 pb-24">
-            <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                <img src="/img/milyem/gradient-inpage.png" alt="gradient" class="h-full w-full" />
-            </picture>
-
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                <img src="/img/milyem/gradient-inpage.png" alt="gradient dark" class="h-full w-full" />
+                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
+                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+            </picture>
+            <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
+                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
+                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <div class="mx-auto max-w-5xl relative">
                 <h1 class="mb-6 text-4xl text-center font-bold text-jacarta-700 dark:text-white">
                     Sıkça Sorulan Sorular
                 </h1>
-                <picture class=" absolute right-0 top-0 -z-10">
-                    <img src="/img/milyem/soru_.png" alt="gradient" class="w-full" />
+                <picture class="absolute right-0 top-0 -z-10">
+                    <source srcset="/img/webp/milyem/soru_.webp" type="image/webp">
+                    <source srcset="/img/milyem/soru_.png" type="image/png">
+                    <img src="/img/milyem/soru_.png" class="w-full" />
                 </picture>
             </div>
             <div class="container">
@@ -358,10 +363,14 @@
                 <div class="container">
                     <div class="relative overflow-hidden rounded-2.5xl px-16 py-8 shadow-md lg:px-24">
                         <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                            <img src="img/milyem/f4f4f4.png" alt="gradient" class="h-full w-full" />
+                            <source srcset="/img/webp/milyem/f4f4f4.webp" type="image/webp">
+                            <source srcset="/img/milyem/f4f4f4.png" type="image/png">
+                            <img src="/img/milyem/f4f4f4.png" class="h-full w-full" />
                         </picture>
                         <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                            <img src="img/milyem/f4f4f4.png" alt="gradient dark" class="h-full w-full" />
+                            <source srcset="/img/webp/milyem/f4f4f4.webp" type="image/webp">
+                            <source srcset="/img/milyem/f4f4f4.png" type="image/png">
+                            <img src="/img/milyem/f4f4f4.png" class="h-full w-full" />
                         </picture>
                         <div class="items-center justify-between md:flex">
                             <div class="mb-6 md:mb-0 md:w-1/2">
@@ -378,7 +387,11 @@
                                     İletişime Geç
                                 </a>
                             </div>
-                            <img src="img/milyem/iletisim-new.png" class="max-w-[350px]" alt="" />
+                            <picture>
+                                <source srcset="/img/webp/milyem/iletisim-new.webp" type="image/webp">
+                                <source srcset="/img/milyem/iletisim-new.png" type="image/png">
+                                <img src="/img/milyem/iletisim-new.png" class="max-w-[350px]" />
+                            </picture>
                         </div>
                     </div>
                 </div>

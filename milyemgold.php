@@ -12,11 +12,15 @@
 
     <main class="pt-[5.5rem] lg:pt-24">
         <section class="relative py-24 dark:bg-jacarta-800">
-            <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                <img src="/img/milyem/gradient-inpage.png" alt="gradient" class="h-full w-full" />
-            </picture>
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                <img src="/img/milyem/gradient-inpage.png" alt="gradient dark" class="h-full w-full" />
+                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
+                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+            </picture>
+            <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
+                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
+                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <div class="container">
                 <div class="pb-10">
@@ -25,8 +29,11 @@
                         <h2 class="mb-6 font-display text-3xl text-jacarta-700 dark:text-white">
                             Milyem Gold nedir ?
                         </h2>
-                        <img src="/img/milyem/coin_milyem.png" class="float-right	max-w-[200px] lg:max-w-[600px] mb-4 pl-4 transition-transform duration-500 animate-spin-slow" />
-
+                        <picture>
+                            <source srcset="/img/webp/milyem/coin_milyem.webp" type="image/webp">
+                            <source srcset="img/milyem/coin_milyem.png" type="image/png">
+                            <img src="/img/milyem/coin_milyem.png" alt="Milyem Coin" class="float-right max-w-[200px] lg:max-w-[600px] mb-4 pl-4 transition-transform duration-500 animate-spin-slow" />
+                        </picture>
                         <p class="text-lg text-jacarta-500 mb-4 text-justify">
                             Altın, tarih boyunca yalnızca bir maden değil, aynı zamanda güvenin, emeğin ve mirasın sembolü
                             oldu. Onun her gramında bir zanaatkarın ustalığı, bir kültürün geçmişi ve bir geleceğin temeli
@@ -82,7 +89,11 @@
                     <div class="lg:flex lg:justify-between mt-8">
                         <!-- Image -->
                         <div class="relative pr-6 lg:w-[33%]">
-                            <img src="img/milyem/milyem.png" class="w-full" alt="" loading="lazy" />
+                            <picture>
+                                <source srcset="/img/webp/milyem/milyem.webp" type="image/webp">
+                                <source srcset="img/milyem/milyem.png" type="image/png">
+                                <img src="/img/milyem/milyem.png" alt="Milyem Gold" class="w-full" loading="lazy" />
+                            </picture>
                         </div>
 
                         <!-- Info -->

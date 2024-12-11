@@ -19,11 +19,15 @@
 
         <!-- Contact -->
         <section class="relative py-24 dark:bg-jacarta-800">
-            <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                <img src="/img/milyem/gradient-inpage.png" alt="gradient" class="h-full w-full" />
-            </picture>
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                <img src="/img/milyem/gradient-inpage.png" alt="gradient dark" class="h-full w-full" />
+                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
+                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+            </picture>
+            <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
+                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
+                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <div class="mx-auto max-w-5xl">
                 <div class="lg:flex">

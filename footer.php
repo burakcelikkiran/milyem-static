@@ -4,8 +4,11 @@
             <div class="col-span-full sm:col-span-3 md:col-span-4">
                 <!-- Logo -->
                 <a href="/index.php" class="mb-6 inline-block">
-                    <img src="img/milyem/1000_1000.png" class="max-h-24 dark:hidden bg-dark rounded-full" alt="Milyem Gold" />
-                    <img src="img/milyem/1000_1000.png" class="hidden max-h-24 dark:block" alt="Milyem Gold" />
+                    <picture>
+                        <source srcset="/img/webp/milyem/1000_1000.webp" type="image/webp">
+                        <source srcset="/img/milyem/1000_1000.png" type="image/png">
+                        <img src="/img/milyem/1000_1000.png" alt="Milyem Coin" class="max-h-24 bg-dark rounded-full" />
+                    </picture>
                 </a>
                 <p class="mb-3 dark:text-jacarta-300 text-lg font-bold text-white">
                     Altın Değerinde Yatırımlar <br> Milyem Gold 'da!
