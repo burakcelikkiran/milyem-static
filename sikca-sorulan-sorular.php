@@ -14,23 +14,23 @@
         <!-- Benefits -->
         <section class="relative pt-32 pb-24">
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
-                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
-                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" type="image/png">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
-                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
-                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" type="image/png">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <div class="mx-auto max-w-5xl relative">
                 <h1 class="mb-6 text-4xl text-center font-bold text-jacarta-700 dark:text-white">
                     Sıkça Sorulan Sorular
                 </h1>
                 <picture class="absolute right-0 top-0 -z-10">
-                    <source srcset="/img/webp/milyem/soru_.webp" type="image/webp">
-                    <source srcset="/img/milyem/soru_.png" type="image/png">
-                    <img src="/img/milyem/soru_.png" class="w-full" />
+                    <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/soru_.webp" type="image/webp">
+                    <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/soru_.png" type="image/png">
+                    <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/soru_.png" class="w-full" />
                 </picture>
             </div>
             <div class="container">
@@ -183,7 +183,7 @@
                         <div id="faq-7" class="accordion-collapse collapse" aria-labelledby="faq-heading-7" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body border-t border-jacarta-100 bg-white p-4 dark:border-jacarta-600 dark:bg-jacarta-700">
                                 <p class="dark:text-jacarta-200">
-                                    Milyem Gold projesi, Kapalı Çarşı Esnaflar Derneği ve birçok Kapalı Çarşı esnafı ile iş birliği içinde yürütülmektedir. Bu iş birliği, projenin güvenliğini ve sağlam altyapısını desteklerken, kullanıcıların altın işlemlerini güvenle gerçekleştirmelerine olanak tanır. Kapalı Çarşı'nın köklü geçmişi ve sektördeki etkisi, Milyem Gold'un güvenilirliğini ve başarı şansını artırmaktadır.
+                                    Milyem Gold projesi, Kapalı Çarşı Esnaflar Derneği ve birçok Kapalı Çarşı esnafı ile iş birliği içinde yürütülmektedir. Bu iş birliği, projenin güvenliğini ve sağlam altyapısını desteklerken, kullanıcıların altın işlemlerini güvenle gerçekleştirmelerine olanak tanır. Kapalı Çarşı'nın k��klü geçmişi ve sektördeki etkisi, Milyem Gold'un güvenilirliğini ve başarı şansını artırmaktadır.
                                 </p>
                             </div>
                         </div>
@@ -309,7 +309,7 @@
                         <div id="faq-13" class="accordion-collapse collapse" aria-labelledby="faq-heading-13" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body border-t border-jacarta-100 bg-white p-4 dark:border-jacarta-600 dark:bg-jacarta-700">
                                 <p class="dark:text-jacarta-200">
-                                    Altın transferi yaparken, Milyem Gold’da ilan edilen “servis ücreti” tahsil edilir.
+                                    Altın transferi yaparken, Milyem Gold’da ilan edilen "servis ücreti" tahsil edilir.
                                 </p>
                             </div>
                         </div>
@@ -363,14 +363,14 @@
                 <div class="container">
                     <div class="relative overflow-hidden rounded-2.5xl px-16 py-8 shadow-md lg:px-24">
                         <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                            <source srcset="/img/webp/milyem/f4f4f4.webp" type="image/webp">
-                            <source srcset="/img/milyem/f4f4f4.png" type="image/png">
-                            <img src="/img/milyem/f4f4f4.png" class="h-full w-full" />
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/f4f4f4.webp" type="image/webp">
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/f4f4f4.png" type="image/png">
+                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/f4f4f4.png" class="h-full w-full" />
                         </picture>
                         <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                            <source srcset="/img/webp/milyem/f4f4f4.webp" type="image/webp">
-                            <source srcset="/img/milyem/f4f4f4.png" type="image/png">
-                            <img src="/img/milyem/f4f4f4.png" class="h-full w-full" />
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/f4f4f4.webp" type="image/webp">
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/f4f4f4.png" type="image/png">
+                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/f4f4f4.png" class="h-full w-full" />
                         </picture>
                         <div class="items-center justify-between md:flex">
                             <div class="mb-6 md:mb-0 md:w-1/2">

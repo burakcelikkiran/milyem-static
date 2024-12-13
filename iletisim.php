@@ -20,14 +20,14 @@
         <!-- Contact -->
         <section class="relative py-24 dark:bg-jacarta-800">
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
-                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
-                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" type="image/png">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
-                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
-                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" type="image/png">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <div class="mx-auto max-w-5xl">
                 <div class="lg:flex">

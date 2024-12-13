@@ -11,7 +11,7 @@
 <!-- Dark Mode JS -->
 <!--     <script src="/js/darkMode.bundle.js"></script> -->
 <!-- Favicons -->
-<link rel="shortcut icon" href="img/favicon.png"/>
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png"/>
+<link rel="shortcut icon" href="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/favicon.png"/>
+<link rel="apple-touch-icon" href="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/apple-touch-icon.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/apple-touch-icon-72x72.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/apple-touch-icon-114x114.png"/>

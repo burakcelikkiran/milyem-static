@@ -12,16 +12,16 @@
 
     <main>
       <!-- Hero -->
-      <section class="relative pb-48 pt-20 lg:pt-32 2xl:pt-48 bg-no-repeat bg-cover min-h-[90vh] bg-left-top" style="background-image: url('img/milyem/background-2.png');">
+      <section class="relative pb-48 pt-20 lg:pt-32 2xl:pt-48 bg-no-repeat bg-cover min-h-[90vh] bg-left-top" style="background-image: url('https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/background-2.png');">
           <picture>
-              <source srcset="/img/webp/milyem/yuvarlak_613_415.webp" type="image/webp">
-              <source srcset="/img/milyem/yuvarlak_613_415.png" type="image/png">
-              <img src="/img/milyem/yuvarlak_613_415.png" alt="Milyem donut" class="absolute right-0 top-0 max-w-[400px] lg:max-w-[600px] 2xl:max-w-[800px] opacity-50 z-10" />
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/yuvarlak_613_415.webp" type="image/webp">
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/yuvarlak_613_415.png" type="image/png">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/yuvarlak_613_415.png" alt="Milyem donut" class="absolute right-0 top-0 max-w-[400px] lg:max-w-[600px] 2xl:max-w-[800px] opacity-50 z-10" />
           </picture>
           <picture>
-              <source srcset="/img/webp/milyem/gold.webp" type="image/webp">
-              <source srcset="/img/milyem/gold.png" type="image/png">
-              <img src="/img/milyem/gold.png" alt="külçe donut" class="absolute left-0 bottom-[15%] max-w-[400px] opacity-50 z-10" />
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/gold.webp" type="image/webp">
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gold.png" type="image/png">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gold.png" alt="külçe donut" class="absolute left-0 bottom-[15%] max-w-[400px] opacity-50 z-10" />
           </picture>
 
         <div class="ml-auto mr-auto h-full max-w-[91rem] px-4 z-20 relative">
@@ -39,9 +39,9 @@
                   <figure class="mr-2 2xl:mr-4 shrink-0">
                     <a href="#" class="relative block">
                         <picture>
-                            <source srcset="/img/webp/milyem/100_100.webp" type="image/webp">
-                            <source srcset="/img/milyem/100_100.png" type="image/png">
-                            <img src="/img/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/100_100.webp" type="image/webp">
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" type="image/png">
+                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
                         </picture>
                     </a>
                   </figure>
@@ -56,9 +56,9 @@
                   <figure class="mr-2 2xl:mr-4 shrink-0">
                     <a href="#" class="relative block">
                         <picture>
-                            <source srcset="/img/webp/milyem/100_100.webp" type="image/webp">
-                            <source srcset="/img/milyem/100_100.png" type="image/png">
-                            <img src="/img/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/100_100.webp" type="image/webp">
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" type="image/png">
+                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
                         </picture>
                     </a>
                   </figure>
@@ -73,9 +73,9 @@
                   <figure class="mr-2 2xl:mr-4">
                     <a href="#" class="relative block">
                         <picture>
-                            <source srcset="/img/webp/milyem/coin_milyem.webp" type="image/webp">
-                            <source srcset="/img/milyem/coin_milyem.png" type="image/png">
-                            <img src="/img/milyem/coin_milyem.png" alt="milyem coin" class="rounded-2lg max-w-[55px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/coin_milyem.webp" type="image/webp">
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/coin_milyem.png" type="image/png">
+                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/coin_milyem.png" alt="milyem coin" class="rounded-2lg max-w-[55px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
                         </picture>
                     </a>
                   </figure>
@@ -96,9 +96,9 @@
                   <div class="flex gap-4">
                     <span class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white">
                         <picture>
-                            <source srcset="/img/webp/milyem/1000_1000_karesiz.webp" type="image/webp">
-                            <source srcset="/img/milyem/1000_1000_karesiz.png" type="image/png">
-                            <img src="/img/milyem/1000_1000_karesiz.png" />
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/1000_1000_karesiz.webp" type="image/webp">
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/1000_1000_karesiz.png" type="image/png">
+                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/1000_1000_karesiz.png" />
                         </picture>
                     </span>
                     <div class="text-left">
@@ -108,9 +108,9 @@
                   </div>
                 </div>
                   <picture>
-                      <source srcset="/img/webp/milyem/kapalıcars.webp" type="image/webp">
-                      <source srcset="/img/milyem/kapalıcars.png" type="image/png">
-                      <img src="/img/milyem/kapalıcars.png" class="inline-block rounded-2.5xl border-2 border-[#caa754]" />
+                      <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/kapalıcars.webp" type="image/webp">
+                      <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/kapalıcars.png" type="image/png">
+                      <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/kapalıcars.png" class="inline-block rounded-2.5xl border-2 border-[#caa754]" />
                   </picture>
 
                 <div class="absolute bottom-0 sm:bottom-28 lg:-bottom-12 2xl:bottom-8 inline-block animate-fly rounded-2lg border-2 border-[#caa754] bg-white p-3 lg:p-4 2xl:p-6 shadow-2xl -right-[5%] sm:right-[5%] lg:right-[3%] 2xl:-right-[17%]">
@@ -160,18 +160,18 @@
       <!-- end hero -->
       <section class="relative py-24 dark:bg-jacarta-800">
           <picture class="pointer-events-none absolute inset-0 -z-10">
-              <source srcset="/img/webp/milyem/dark-bg.webp" type="image/webp">
-              <source srcset="/img/milyem/dark-bg.png" type="image/png">
-              <img src="/img/milyem/dark-bg.png" class="h-full w-full" />
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/dark-bg.webp" type="image/webp">
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/dark-bg.png" type="image/png">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/dark-bg.png" class="h-full w-full" />
           </picture>
         <div class="container">
           <div class="lg:flex lg:justify-between">
             <!-- Image -->
             <div class="relative pr-6 lg:w-[33%]">
                 <picture>
-                    <source srcset="/img/webp/milyem/milyem.webp" type="image/webp">
-                    <source srcset="/img/milyem/milyem.png" type="image/png">
-                    <img src="/img/milyem/milyem.png" class=" w-full" />
+                    <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/milyem.webp" type="image/webp">
+                    <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/milyem.png" type="image/png">
+                    <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/milyem.png" class=" w-full" />
                 </picture>
             </div>
 
@@ -205,9 +205,9 @@
                   <button class="nav-link nav-link--style-2 active group relative flex w-full border-b border-jacarta-100 p-6 text-left dark:border-jacarta-600"
                     id="ownership-tab" data-bs-toggle="tab" data-bs-target="#ownership" type="button" role="tab" aria-controls="ownership" aria-selected="true">
                       <picture>
-                          <source srcset="/img/webp/milyem/nasil-milyem/uyelik.webp" type="image/webp">
-                          <source srcset="/img/milyem/nasil-milyem/uyelik.png" type="image/png">
-                          <img src="/img/milyem/nasil-milyem/uyelik.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/uyelik.webp" type="image/webp">
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/uyelik.png" type="image/png">
+                          <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/uyelik.png" class="mr-2 h-12 w-12 flex-shrink-0" />
                       </picture>
                     <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium group-hover:text-[#caa754] dark:text-white">
@@ -233,9 +233,9 @@
                     aria-selected="false"
                   >
                       <picture>
-                          <source srcset="/img/webp/milyem/nasil-milyem/guvenlik.webp" type="image/webp">
-                          <source srcset="/img/milyem/nasil-milyem/guvenlik.png" type="image/png">
-                          <img src="/img/milyem/nasil-milyem/guvenlik.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/guvenlik.webp" type="image/webp">
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/guvenlik.png" type="image/png">
+                          <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/guvenlik.png" class="mr-2 h-12 w-12 flex-shrink-0" />
                       </picture>
                     <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
@@ -261,9 +261,9 @@
                     aria-selected="false"
                   >
                       <picture>
-                          <source srcset="/img/webp/milyem/nasil-milyem/sepet.webp" type="image/webp">
-                          <source srcset="/img/milyem/nasil-milyem/sepet.png" type="image/png">
-                          <img src="/img/milyem/nasil-milyem/sepet.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/sepet.webp" type="image/webp">
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/sepet.png" type="image/png">
+                          <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/sepet.png" class="mr-2 h-12 w-12 flex-shrink-0" />
                       </picture>
                       <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
@@ -289,9 +289,9 @@
                     aria-selected="false"
                   >
                       <picture>
-                          <source srcset="/img/webp/milyem/nasil-milyem/odeme.webp" type="image/webp">
-                          <source srcset="/img/milyem/nasil-milyem/odeme.png" type="image/png">
-                          <img src="/img/milyem/nasil-milyem/odeme.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/odeme.webp" type="image/webp">
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/odeme.png" type="image/png">
+                          <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/odeme.png" class="mr-2 h-12 w-12 flex-shrink-0" />
                       </picture>
                     <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
@@ -317,9 +317,9 @@
                     aria-selected="false"
                   >
                       <picture>
-                          <source srcset="/img/webp/milyem/nasil-milyem/kontrol.webp" type="image/webp">
-                          <source srcset="/img/milyem/nasil-milyem/kontrol.png" type="image/png">
-                          <img src="/img/milyem/nasil-milyem/kontrol.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/kontrol.webp" type="image/webp">
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/kontrol.png" type="image/png">
+                          <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/kontrol.png" class="mr-2 h-12 w-12 flex-shrink-0" />
                       </picture>
                     <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
@@ -345,9 +345,9 @@
                     aria-selected="false"
                   >
                       <picture>
-                          <source srcset="/img/webp/milyem/nasil-milyem/cevir.webp" type="image/webp">
-                          <source srcset="/img/milyem/nasil-milyem/cevir.png" type="image/png">
-                          <img src="/img/milyem/nasil-milyem/cevir.png" class="mr-2 h-12 w-12 flex-shrink-0" />
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/cevir.webp" type="image/webp">
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/cevir.png" type="image/png">
+                          <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/cevir.png" class="mr-2 h-12 w-12 flex-shrink-0" />
                       </picture>
                       <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
@@ -369,14 +369,14 @@
                 <div class="tab-pane fade show active relative" id="ownership" role="tabpanel" aria-labelledby="ownership-tab">
                   <figure class="flex items-center justify-center">
                       <picture>
-                          <source srcset="/img/webp/milyem/nasil-milyem/uyelik.webp" type="image/webp">
-                          <source srcset="/img/milyem/nasil-milyem/uyelik.png" type="image/png">
-                          <img src="/img/milyem/nasil-milyem/uyelik.png" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/uyelik.webp" type="image/webp">
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/uyelik.png" type="image/png">
+                          <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/uyelik.png" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                       </picture>
                       <picture class="absolute animate-spin-slow">
-                          <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
-                          <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                          <img src="/img/milyem/how-purchase.png" />
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/how-purchase.webp" type="image/webp">
+                          <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" type="image/png">
+                          <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" />
                       </picture>
                   </figure>
                 </div>
@@ -388,14 +388,14 @@
                 >
                   <figure class="flex items-center justify-center">
                     <picture>
-                        <source srcset="/img/webp/milyem/nasil-milyem/guvenlik.webp" type="image/webp">
-                        <source srcset="/img/milyem/nasil-milyem/guvenlik.png" type="image/png">
-                        <img src="/img/milyem/nasil-milyem/guvenlik.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/guvenlik.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/guvenlik.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/guvenlik.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                     </picture>
                     <picture class="absolute animate-spin-slow">
-                        <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
-                        <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                        <img src="/img/milyem/how-purchase.png" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/how-purchase.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" />
                     </picture>
                   </figure>
                 </div>
@@ -407,14 +407,14 @@
                 >
                   <figure class="flex items-center justify-center">
                     <picture>
-                        <source srcset="/img/webp/milyem/nasil-milyem/sepet.webp" type="image/webp">
-                        <source srcset="/img/milyem/nasil-milyem/sepet.png" type="image/png">
-                        <img src="/img/milyem/nasil-milyem/sepet.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/sepet.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/sepet.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/sepet.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                     </picture>
                     <picture class="absolute animate-spin-slow">
-                        <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
-                        <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                        <img src="/img/milyem/how-purchase.png" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/how-purchase.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" />
                     </picture>
                   </figure>
                 </div>
@@ -426,14 +426,14 @@
                 >
                   <figure class="flex items-center justify-center">
                     <picture>
-                        <source srcset="/img/webp/milyem/nasil-milyem/odeme.webp" type="image/webp">
-                        <source srcset="/img/milyem/nasil-milyem/odeme.png" type="image/png">
-                        <img src="/img/milyem/nasil-milyem/odeme.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/odeme.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/odeme.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/odeme.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                     </picture>
                     <picture class="absolute animate-spin-slow">
-                        <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
-                        <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                        <img src="/img/milyem/how-purchase.png" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/how-purchase.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" />
                     </picture>
                   </figure>
                 </div>
@@ -445,14 +445,14 @@
                 >
                   <figure class="flex items-center justify-center">
                     <picture>
-                        <source srcset="/img/webp/milyem/nasil-milyem/cevir.webp" type="image/webp">
-                        <source srcset="/img/milyem/nasil-milyem/cevir.png" type="image/png">
-                        <img src="/img/milyem/nasil-milyem/cevir.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/cevir.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/cevir.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/cevir.png" alt="" class="p-14 dark:border-jacarta-600 max-w-[400px]" />
                     </picture>
                     <picture class="absolute animate-spin-slow">
-                        <source srcset="/img/webp/milyem/how-purchase.webp" type="image/webp">
-                        <source srcset="/img/milyem/how-purchase.png" type="image/png">
-                        <img src="/img/milyem/how-purchase.png" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/how-purchase.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/how-purchase.png" />
                     </picture>
                   </figure>
                 </div>
@@ -463,7 +463,7 @@
       </section>
       <!-- Process -->
       <section class="relative py-24 dark:bg-jacarta-800">
-        <img src="img/milyem/milyem-tarih.png" alt="külçe donut" class="absolute left-0 bottom-0 max-w-[400px]" />
+        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/milyem-tarih.png" alt="külçe donut" class="absolute left-0 bottom-0 max-w-[400px]" />
 
         <div class="container">
           <h2 class="mb-10 text-center font-display text-3xl text-jacarta-700 dark:text-white">
@@ -471,9 +471,9 @@
           </h2>
           <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div class="relative rounded-2.5xl border border-jacarta-100 bg-white p-8 shadow-[0_5px_0_0_#AB842E] transition-shadow hover:shadow-[0_16px_24px_-8px_rgba(171,132,46,.3)] dark:border-jacarta-700 dark:bg-jacarta-700">
-              <img src="/img/milyem/why-buy/iscilik.png" class="grayscale opacity-50 absolute right-3 top-3 h-16 w-16 " alt="">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/why-buy/iscilik.png" class="grayscale opacity-50 absolute right-3 top-3 h-16 w-16 " alt="">
               <div class="mb-6 inline-flex items-center justify-center">
-                <img src="/img/milyem/why-buy/iscilik.png" class="h-12 w-12" alt="">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/why-buy/iscilik.png" class="h-12 w-12" alt="">
               </div>
               <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">İşçilik Ücreti Yok</h3>
               <p class="dark:text-jacarta-300">
@@ -483,10 +483,10 @@
             <div
               class="relative rounded-2.5xl border border-jacarta-100 bg-white p-8 shadow-[0_5px_0_0_#AB842E] transition-shadow hover:shadow-[0_16px_24px_-8px_rgba(171,132,46,.3)] dark:border-jacarta-700 dark:bg-jacarta-700"
             >
-              <img src="/img/milyem/why-buy/guvence.png" class="grayscale opacity-50 absolute right-3 top-3 h-16 w-16 " alt="">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/why-buy/guvence.png" class="grayscale opacity-50 absolute right-3 top-3 h-16 w-16 " alt="">
 
               <div class="mb-6 inline-flex items-center justify-center">
-                <img src="/img/milyem/why-buy/guvence.png" class="h-12 w-12" alt="">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/why-buy/guvence.png" class="h-12 w-12" alt="">
 
               </div>
               <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">Kapalı Çarşı Güvencesiyle Alışveriş</h3>
@@ -497,10 +497,10 @@
             <div
               class="relative rounded-2.5xl border border-jacarta-100 bg-white p-8 shadow-[0_5px_0_0_#AB842E] transition-shadow hover:shadow-[0_16px_24px_-8px_rgba(171,132,46,.3)] dark:border-jacarta-700 dark:bg-jacarta-700"
             >
-              <img src="/img/milyem/why-buy/kucukbutce.png" class="grayscale opacity-50 absolute right-3 top-3 h-16 w-16 " alt="">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/why-buy/kucukbutce.png" class="grayscale opacity-50 absolute right-3 top-3 h-16 w-16 " alt="">
 
               <div class="mb-6 inline-flex items-center justify-center">
-                <img src="/img/milyem/why-buy/kucukbutce.png" class="h-12 w-12" alt="">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/why-buy/kucukbutce.png" class="h-12 w-12" alt="">
 
               </div>
               <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">Küçük Yatırımlarla Paranı Koru</h3>
@@ -524,7 +524,7 @@
         <div class="swiper-slide !h-auto">
           <div class="h-full rounded-2.5xl border border-jacarta-100 bg-white p-8 pt-0 text-center transition-shadow hover:shadow-xl dark:border-jacarta-600 dark:bg-jacarta-700">
             <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
-              <img src="/img/milyem/gif/profilim.gif" class="rounded-full h-14 w-14">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gif/profilim.gif" class="rounded-full h-14 w-14">
             </div>
 
             <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">1. Profilim Sayfasına Git</h3>
@@ -536,7 +536,7 @@
         <div class="swiper-slide !h-auto">
           <div class="h-full rounded-2.5xl border border-jacarta-100 bg-white p-8 pt-0 text-center transition-shadow hover:shadow-xl dark:border-jacarta-600 dark:bg-jacarta-700">
             <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
-              <img src="/img/milyem/gif/fiziki-altin.gif" class="rounded-full h-14 w-14">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gif/fiziki-altin.gif" class="rounded-full h-14 w-14">
             </div>
 
             <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">2. Fiziki Altına Çevir Sekmesine Git</h3>
@@ -548,7 +548,7 @@
         <div class="swiper-slide !h-auto">
           <div class="h-full rounded-2.5xl border border-jacarta-100 bg-white p-8 pt-0 text-center transition-shadow hover:shadow-xl dark:border-jacarta-600 dark:bg-jacarta-700">
             <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
-              <img src="/img/milyem/gif/1000milyem.gif" class=" rounded-full h-14 w-14">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gif/1000milyem.gif" class=" rounded-full h-14 w-14">
             </div>
 
             <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">Unutma 1000 MİLYEM = 1 GR</h3>
@@ -561,7 +561,7 @@
         <div class="swiper-slide !h-auto">
           <div class="h-full rounded-2.5xl border border-jacarta-100 bg-white p-8 pt-0 text-center transition-shadow hover:shadow-xl dark:border-jacarta-600 dark:bg-jacarta-700">
             <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
-              <img src="/img/milyem/gif/odeme.gif" class="rounded-full h-14 w-14">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gif/odeme.gif" class="rounded-full h-14 w-14">
             </div>
 
             <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">Fiziki Altın Farkı Öde</h3>
@@ -573,7 +573,7 @@
         <div class="swiper-slide !h-auto">
           <div class="h-full rounded-2.5xl border border-jacarta-100 bg-white p-8 pt-0 text-center transition-shadow hover:shadow-xl dark:border-jacarta-600 dark:bg-jacarta-700">
             <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
-              <img src="/img/milyem/gif/kargo.gif" class="rounded-full h-14 w-14">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gif/kargo.gif" class="rounded-full h-14 w-14">
             </div>
 
             <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">Kargonu Takip Et</h3>
@@ -585,7 +585,7 @@
         <div class="swiper-slide !h-auto">
           <div class="h-full rounded-2.5xl border border-jacarta-100 bg-white p-8 pt-0 text-center transition-shadow hover:shadow-xl dark:border-jacarta-600 dark:bg-jacarta-700">
             <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
-              <img src="/img/milyem/gif/avcunun_icinde.gif" class="rounded-full h-14 w-14">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gif/avcunun_icinde.gif" class="rounded-full h-14 w-14">
             </div>
 
             <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">Tebrikler Milyemler Avucunun İçerisinde</h3>
@@ -646,7 +646,7 @@
                   <div id="faq-2" class="accordion-collapse collapse" aria-labelledby="faq-heading-2" data-bs-parent="#accordionFAQ">
                     <div class="accordion-body border-t border-jacarta-100 bg-white p-4 dark:border-jacarta-600 dark:bg-jacarta-700">
                       <p class="dark:text-jacarta-200">
-                        Milyem Gold projesinin temel amacı, altını daha erişilebilir bir yatırım aracı haline getirmektedir. Altını 1000 eşit parçaya bölerek dijitalleştiren bu sistem, bireylerin düşük bütçelerle altın yatırımı yapmasına olanak tanır. Ayrıca, kullanıcılara altın birikimlerini daha küçük birimlerde değerlendirme ve ihtiyaçlarına göre esnek bir şekilde yönetme imkanı sunar. Bu sayede hem yatırımcılara hem de bireysel kullanıcılara finansal erişim kolaylığı sağlamayı hedefler.
+                        Milyem Gold projesinin temel amacı, altını daha erişilebilir bir yatırım aracı haline getirmektedir. Altını 1000 eşit parçaya bölerek dijitalleştiren bu sistem, bireylerin düşük bütçelerle altın yatırımı yapmasına olanak tanır. Ayrıca, kullanıcılara altın birikimlerini daha küçük birimlerde değerlendirme ve ihtiyaçlarına göre esnek bir şekilde yönetme imkanı sunar. Bu sayede hem yatırımcılara hem de bireysel kullanıcılara finansal erişim kolaylığ�� sağlamayı hedefler.
                       </p>
                     </div>
                   </div>
@@ -714,10 +714,10 @@
                     </clipPath>
                   </defs>
                   <g clip-path="url(#clipping)">
-                    <image href="/img/milyem/faq.png" width="200" height="200" clip-path="url(#clipping)" />
+                    <image href="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/faq.png" width="200" height="200" clip-path="url(#clipping)" />
                   </g>
                 </svg>
-<!--                <img src="/img/milyem/faq.png" class="mb-8 inline-block rounded-2.5xl" />-->
+<!--                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/faq.png" class="mb-8 inline-block rounded-2.5xl" />-->
               </div>
             </div>
           </div>
@@ -737,126 +737,126 @@
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_1.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_1.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_1.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_1.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_1.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_1.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_2.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_2.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_2.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_2.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_2.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_2.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_3.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_3.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_3.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_3.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_3.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_3.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_4.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_4.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_4.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_4.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_4.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_4.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_5.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_5.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_5.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_5.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_5.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_5.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_6.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_6.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_6.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_6.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_6.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_6.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_7.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_7.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_7.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_7.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_7.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_7.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_1.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_1.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_1.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_1.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_1.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_1.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_2.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_2.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_2.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_2.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_2.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_2.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_3.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_3.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_3.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_3.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_3.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_3.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_4.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_4.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_4.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_4.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_4.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_4.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_5.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_5.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_5.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_5.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_5.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_5.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_6.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_6.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_6.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_6.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_6.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_6.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="/img/webp/dao/partner_dao_7.webp" type="image/webp">
-                <source srcset="/img/dao/partner_dao_7.jpg" type="image/jpeg">
-                <img src="img/dao/partner_dao_7.jpg" alt="" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_7.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_7.jpg" type="image/jpeg">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_7.jpg" alt="" />
             </picture>
           </div>
         </div>
@@ -889,14 +889,14 @@
         <div class="container">
           <div class="relative overflow-hidden rounded-2.5xl px-16 py-8 shadow-md lg:px-24">
             <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-              <source srcset="/img/webp/milyem/f4f4f4.webp" type="image/webp">
-              <source srcset="/img/milyem/f4f4f4.png" type="image/png">
-              <img src="img/milyem/f4f4f4.png" alt="gradient" class="h-full w-full" />
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/f4f4f4.webp" type="image/webp">
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/f4f4f4.png" type="image/png">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/f4f4f4.png" alt="gradient" class="h-full w-full" />
             </picture>
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-              <source srcset="/img/webp/milyem/f4f4f4.webp" type="image/webp">
-              <source srcset="/img/milyem/f4f4f4.png" type="image/png">
-              <img src="img/milyem/f4f4f4.png" alt="gradient dark" class="h-full w-full" />
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/f4f4f4.webp" type="image/webp">
+              <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/f4f4f4.png" type="image/png">
+              <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/f4f4f4.png" alt="gradient dark" class="h-full w-full" />
             </picture>
             <div class="items-center justify-between md:flex">
               <div class="mb-6 md:mb-0 md:w-1/2">
@@ -914,9 +914,9 @@
                 </a>
               </div>
               <picture>
-                  <source srcset="/img/webp/milyem/iletisim-new.webp" type="image/webp">
-                  <source srcset="/img/milyem/iletisim-new.png" type="image/png">
-                  <img src="img/milyem/iletisim-new.png" class="max-w-[350px]" alt="" />
+                  <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/iletisim-new.webp" type="image/webp">
+                  <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/iletisim-new.png" type="image/png">
+                  <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/iletisim-new.png" class="max-w-[350px]" alt="" />
               </picture>
             </div>
           </div>

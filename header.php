@@ -3,9 +3,9 @@
         <!-- Logo -->
         <a href="/index.php" class="shrink-0 p-1 rounded-full">
             <picture>
-                <source srcset="/img/webp/milyem/logo-and-milyem.webp" type="image/webp">
-                <source srcset="/img/milyem/logo-and-milyem.png" type="image/png">
-                <img src="/img/milyem/logo-and-milyem.png" alt="Milyem Gold |  Marketplace" class="max-h-20" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/logo-and-milyem.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/logo-and-milyem.png" type="image/png">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/logo-and-milyem.png" alt="Milyem Gold |  Marketplace" class="max-h-20" />
             </picture>
         </a>
         <div class="js-mobile-menu invisible lg:visible fixed inset-0 z-10 ml-auto items-center bg-white opacity-0 dark:bg-jacarta-800 lg:relative lg:inset-auto lg:flex lg:bg-transparent lg:opacity-100 dark:lg:bg-transparent">
@@ -14,9 +14,9 @@
                 <!-- Mobile Logo -->
                 <a href="/index.php" class="shrink-0">
                     <picture>
-                        <source srcset="/img/webp/milyem/logo-and-milyem.webp" type="image/webp">
-                        <source srcset="/img/milyem/logo-and-milyem.png" type="image/png">
-                        <img src="/img/milyem/logo-and-milyem.png" alt="Milyem Gold" class="max-h-20" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/logo-and-milyem.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/logo-and-milyem.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/logo-and-milyem.png" alt="Milyem Gold" class="max-h-20" />
                     </picture>
                 </a>
                 <!-- Mobile Menu Close -->

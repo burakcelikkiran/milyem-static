@@ -5,9 +5,9 @@
                 <!-- Logo -->
                 <a href="/index.php" class="mb-6 inline-block">
                     <picture>
-                        <source srcset="/img/webp/milyem/1000_1000.webp" type="image/webp">
-                        <source srcset="/img/milyem/1000_1000.png" type="image/png">
-                        <img src="/img/milyem/1000_1000.png" alt="Milyem Coin" class="max-h-24 bg-dark rounded-full" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/1000_1000.webp" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/1000_1000.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/1000_1000.png" alt="Milyem Coin" class="max-h-24 bg-dark rounded-full" />
                     </picture>
                 </a>
                 <p class="mb-3 dark:text-jacarta-300 text-lg font-bold text-white">

@@ -14,21 +14,21 @@
         <!-- 404 -->
         <section class="relative py-16 dark:bg-jacarta-800 md:py-24">
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
-                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
-                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" type="image/png">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
-                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
-                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" type="image/png">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <div class="container">
                 <div class="mx-auto max-w-lg text-center">
                     <picture>
-                        <source srcset="/img/webp/404.png" type="image/webp">
-                        <source srcset="/img/404.png" type="image/png">
-                        <img src="/img/404.png" alt="Milyem Coin" class="mb-16 inline-block" />
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/404.png" type="image/webp">
+                        <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/404.png" type="image/png">
+                        <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/404.png" alt="Milyem Coin" class="mb-16 inline-block" />
                     </picture>
                     <h1 class="mb-6 font-display text-4xl text-jacarta-700 dark:text-white md:text-6xl">Page Not Found!</h1>
                     <p class="mb-12 text-lg leading-normal dark:text-jacarta-300">

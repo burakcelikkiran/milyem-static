@@ -13,14 +13,14 @@
         <!-- Item -->
         <section class="relative pt-12 pb-24 lg:py-24">
             <picture class="pointer-events-none absolute inset-0 -z-10 hidden dark:block">
-                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
-                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
-                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" type="image/png">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                <source srcset="/img/webp/milyem/gradient-inpage.webp" type="image/webp">
-                <source srcset="/img/milyem/gradient-inpage.png" type="image/png">
-                <img src="/img/milyem/gradient-inpage.png" class="h-full w-full" />
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/gradient-inpage.webp" type="image/webp">
+                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" type="image/png">
+                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gradient-inpage.png" class="h-full w-full" />
             </picture>
             <div class="container">
                 <!-- Item -->
@@ -28,9 +28,9 @@
                     <!-- Image -->
                     <figure class="mb-8 md:mb-0 md:w-2/5 md:flex-shrink-0 md:flex-grow-0 md:basis-auto lg:w-2/6">
                         <picture>
-                            <source srcset="/img/webp/milyem/coin_milyem.webp" type="image/webp">
-                            <source srcset="img/milyem/coin_milyem.png" type="image/png">
-                            <img src="/img/milyem/coin_milyem.png" alt="Milyem Coin" class="rounded-2.5xl transition-transform duration-500 animate-spin-slow" />
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/coin_milyem.webp" type="image/webp">
+                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/coin_milyem.png" type="image/png">
+                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/coin_milyem.png" alt="Milyem Coin" class="rounded-2.5xl transition-transform duration-500 animate-spin-slow" />
                         </picture>
                     </figure>
 
@@ -42,9 +42,9 @@
                         <div class="mb-8 flex items-start">
                             <!--                <h1 class=" font-display text-4xl font-semibold text-jacarta-700 dark:text-white">Milyem Gold</h1>-->
                             <picture>
-                                <source srcset="/img/webp/milyem/milyem-text-dark.webp" type="image/webp">
-                                <source srcset="img/milyem/milyem-text-dark.png" type="image/png">
-                                <img src="/img/milyem/milyem-text-dark.png" alt="Milyem Text" class="max-h-12" />
+                                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/milyem-text-dark.webp" type="image/webp">
+                                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/milyem-text-dark.png" type="image/png">
+                                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/milyem-text-dark.png" alt="Milyem Text" class="max-h-12" />
                             </picture>
                             <div class="ml-auto flex space-x-2">
                                 <div class="flex items-center space-x-1 rounded-xl border border-jacarta-100 bg-white py-2 px-4 dark:border-jacarta-600 dark:bg-jacarta-700">
@@ -120,9 +120,9 @@
                                 <div class="sm:w-7/12 sm:pr-4 lg:pr-8">
                                     <div class="flex flex-row justify-between space-x-2 rounded-2lg border border-milyem bg-light-base px-5 py-3 text-center transition-shadow hover:shadow-lg dark:border-jacarta-600 dark:bg-jacarta-800">
                                         <picture>
-                                            <source srcset="/img/webp/milyem/milyem.webp" type="image/webp">
-                                            <source srcset="img/milyem/milyem.png" type="image/png">
-                                            <img src="img/milyem/milyem.png" alt="Milyem Coin" class="max-w-[100px]" />
+                                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/milyem.webp" type="image/webp">
+                                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/milyem.png" type="image/png">
+                                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/milyem.png" alt="Milyem Coin" class="max-w-[100px]" />
                                         </picture>
                                         <div class="flex justify-around flex-col">
                                             <span class="text-lg text-jacarta-700 dark:text-white"><b>Alış</b> = 3,03 TL</span>
