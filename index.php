@@ -737,126 +737,126 @@
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_1.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_1.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_1.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_1.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_1.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_1.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_2.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_2.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_2.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_2.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_2.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_2.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_3.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_3.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_3.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_3.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_3.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_3.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_4.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_4.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_4.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_4.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_4.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_4.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_5.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_5.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_5.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_5.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_5.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_5.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_6.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_6.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_6.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_6.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_6.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_6.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_7.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_7.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_7.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_7.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_7.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_7.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_1.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_1.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_1.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_1.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_1.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_1.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_2.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_2.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_2.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_2.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_2.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_2.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_3.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_3.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_3.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_3.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_3.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_3.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_4.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_4.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_4.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_4.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_4.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_4.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_5.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_5.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_5.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_5.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_5.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_5.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_6.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_6.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_6.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_6.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_6.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_6.jpg" alt="" />
             </picture>
           </div>
           <div
             class="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6"
           >
             <picture>
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/dao/partner_dao_7.webp" type="image/webp">
-                <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_7.jpg" type="image/jpeg">
-                <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/dao/partner_dao_7.jpg" alt="" />
+                <source srcset="/img/webp/milyem/dao/partner_dao_7.webp" type="image/webp">
+                <source srcset="/img/milyem/dao/partner_dao_7.jpg" type="image/jpeg">
+                <img src="/img/milyem/dao/partner_dao_7.jpg" alt="" />
             </picture>
           </div>
         </div>
