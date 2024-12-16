@@ -267,7 +267,7 @@
                       </picture>
                       <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
-                         Milyemlerini sepete ekle
+                         Milyemlerini Sepete Ekle
                       </span>
                       <div class="nav-link-content hidden">
                         <p class="text-jacarta-500 dark:text-jacarta-300">
@@ -295,7 +295,7 @@
                       </picture>
                     <div>
                       <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-[#caa754] dark:text-white">
-                        Ödemeni gerçekleştir
+                        Ödemeni Gerçekleştir
                       </span>
                       <div class="nav-link-content hidden">
                         <p class="text-jacarta-500 dark:text-jacarta-300">
@@ -467,7 +467,7 @@
 
         <div class="container">
           <h2 class="mb-10 text-center font-display text-3xl text-jacarta-700 dark:text-white">
-            Milyemi Neden almalıyım ?
+            Milyemi Neden Almalıyım ?
           </h2>
           <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div class="relative rounded-2.5xl border border-jacarta-100 bg-white p-8 shadow-[0_5px_0_0_#AB842E] transition-shadow hover:shadow-[0_16px_24px_-8px_rgba(171,132,46,.3)] dark:border-jacarta-700 dark:bg-jacarta-700">
@@ -517,7 +517,7 @@
 <section class="py-8 my-4 mt-12 bg-[#d8d8d8] dark:bg-jacarta-900">
   <div class="container">
     <h2 class="mb-10 text-center font-display text-3xl text-jacarta-700 dark:text-white">
-      Satın Aldığım Milyemleri Fiziki Altına nasıl Çeviririm ?
+      Satın Aldığım Milyemleri Fiziki Altına Nasıl Çeviririm ?
     </h2>
     <div class="swiper scrollbar-slider !pt-10">
       <div class="swiper-wrapper">
@@ -901,7 +901,7 @@
             <div class="items-center justify-between md:flex">
               <div class="mb-6 md:mb-0 md:w-1/2">
                 <h2 class="mb-4 font-display text-2xl text-jacarta-700 dark:text-white sm:text-3xl">
-                  Bizimle iletişime Geç
+                  Bizimle İletişime Geç
                 </h2>
                 <p class="mb-8 text-lg dark:text-jacarta-300">
                   Ekibimiz size çok kısa sürede yardımcı olacak
