@@ -527,7 +527,7 @@
               <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gif/profilim.gif" class="rounded-full h-14 w-14">
             </div>
 
-            <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">1. Profilim Sayfasına Git</h3>
+            <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">Profilim Sayfasına Git</h3>
             <p class="dark:text-jacarta-300">
               Oluşturduğunuz üyelik üzerinden Hesap bilgilerinin yer aldığı sayfaya adım at.
             </p>
@@ -539,7 +539,7 @@
               <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/gif/fiziki-altin.gif" class="rounded-full h-14 w-14">
             </div>
 
-            <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">2. Fiziki Altına Çevir Sekmesine Git</h3>
+            <h3 class="mb-4 font-display text-lg text-jacarta-700 dark:text-white">Fiziki Altına Çevir Sekmesine Git</h3>
             <p class="dark:text-jacarta-300">
               Açılan sayfada yer alan "Fiziki Altın" sekmesine tıkla ve ne kadar milyemin olduğunu kontrol et.
             </p>
