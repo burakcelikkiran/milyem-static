@@ -63,7 +63,7 @@
                     </li>
                     <li>
                         <a href="#" class="flex items-center rounded-xl px-5 py-2 transition-colors hover:bg-jacarta-50 hover:text-[#caa754] focus:text-[#caa754] dark:hover:bg-jacarta-600">
-                            <span class="font-display text-sm text-jacarta-700 dark:text-white">Klavuz</span>
+                            <span class="font-display text-sm text-jacarta-700 dark:text-white">Kılavuz</span>
                         </a>
                     </li>
                 </ul>
