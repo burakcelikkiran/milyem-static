@@ -33,8 +33,8 @@
                     <!-- Filters -->
                     <aside class="basis-8/12 lg:pl-5">
                         <div class="flex-wrap flex justify-center">
-                            <div class="w-1/2 p-3 pt-0 dark:border-jacarta-600 dark:bg-jacarta-700 mb-12">
-                                <div class=" rounded-2.5xl border border-jacarta-100 bg-white text-center transition-shadow hover:shadow-xl">
+                            <div class="w-full p-3 pt-0 dark:border-jacarta-600 dark:bg-jacarta-700 mb-12">
+                                <div class="rounded-2.5xl border border-jacarta-100 bg-white text-center transition-shadow hover:shadow-xl">
                                     <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
                                         <picture>
                                             <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/100_100.webp" type="image/webp">
@@ -43,87 +43,11 @@
                                         </picture>
                                     </div>
                                     <h3 class="mb-4 font-display text-xl text-jacarta-700 dark:text-white">9456 MİLYEM</h3>
+                                    <p class="text-red pb-4">*Minimum Dönüştürebileceğiniz altın tutarı 35 Gr (35.000 MLYM) olmalıdır.</p>
                                     <div class="flex space-x-4 justify-around w-full mb-4">
-                                        <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                                            <a href="/satin-al.php" class="block">
-                                                <span class="font-bold text-base text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">MİLYEM Al</span>
-                                            </a>
-                                        </div>
-                                        <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
+                                        <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700">
                                             <a href="#" class="block">
-                                                <span class="font-bold text-base text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">MİLYEM Sat</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w-1/2 p-3 pt-0 dark:border-jacarta-600 dark:bg-jacarta-700 mb-12">
-                                <div class=" rounded-2.5xl border border-jacarta-100 bg-white text-center transition-shadow hover:shadow-xl">
-                                    <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
-                                        <picture>
-                                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/100_100.webp" type="image/webp">
-                                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" type="image/png">
-                                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" alt="milyem gold" class="rounded-2lg" loading="lazy">
-                                        </picture>
-                                    </div>
-                                    <h3 class="mb-4 font-display text-xl text-jacarta-700 dark:text-white">13 Gr ALTIN</h3>
-                                    <div class="flex space-x-4 justify-around w-full mb-4">
-                                        <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                                            <a href="/satin-al.php" class="block">
-                                                <span class="font-bold text-base text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Altın Al</span>
-                                            </a>
-                                        </div>
-                                        <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                                            <a href="#" class="block">
-                                                <span class="font-bold text-base text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Altın Sat</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w-1/2 p-3 pt-0 dark:border-jacarta-600 dark:bg-jacarta-700 mb-12">
-                                <div class=" rounded-2.5xl border border-jacarta-100 bg-white text-center transition-shadow hover:shadow-xl">
-                                    <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
-                                        <picture>
-                                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/100_100.webp" type="image/webp">
-                                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" type="image/png">
-                                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" alt="milyem gold" class="rounded-2lg" loading="lazy">
-                                        </picture>
-                                    </div>
-                                    <h3 class="mb-4 font-display text-xl text-jacarta-700 dark:text-white">184 Gr GÜMÜŞ</h3>
-                                    <div class="flex space-x-4 justify-around w-full mb-4">
-                                        <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                                            <a href="/satin-al.php" class="block">
-                                                <span class="font-bold text-base text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Gümüş Al</span>
-                                            </a>
-                                        </div>
-                                        <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                                            <a href="#" class="block">
-                                                <span class="font-bold text-base text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Gümüş Sat</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w-1/2 p-3 pt-0 dark:border-jacarta-600 dark:bg-jacarta-700 mb-12">
-                                <div class=" rounded-2.5xl border border-jacarta-100 bg-white text-center transition-shadow hover:shadow-xl">
-                                    <div class="mb-9 -mt-8 inline-flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full border border-jacarta-100 bg-white dark:border-jacarta-600 dark:bg-jacarta-700">
-                                        <picture>
-                                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/100_100.webp" type="image/webp">
-                                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" type="image/png">
-                                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" alt="milyem gold" class="rounded-2lg" loading="lazy">
-                                        </picture>
-                                    </div>
-                                    <h3 class="mb-4 font-display text-xl text-jacarta-700 dark:text-white">456 Gr PLATİN</h3>
-                                    <div class="flex space-x-4 justify-around w-full mb-4">
-                                        <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                                            <a href="/satin-al.php" class="block">
-                                                <span class="font-bold text-base text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Platin Al</span>
-                                            </a>
-                                        </div>
-                                        <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                                            <a href="#" class="block">
-                                                <span class="font-bold text-base text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Platin Sat</span>
+                                                <span class="font-bold text-base text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Fiziki Altın Randevusu Al</span>
                                             </a>
                                         </div>
                                     </div>

@@ -19,7 +19,7 @@
         </picture>
         <div>
             <h3 class="mb-1 ml-3 font-display text-xl font-semibold text-jacarta-700 dark:text-white">
-                Yatırımlarım
+                Cüzdanım
             </h3>
         </div>
     </a>
