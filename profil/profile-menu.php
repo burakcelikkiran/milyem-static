@@ -11,30 +11,6 @@
             </h3>
         </div>
     </a>
-    <a href="/profil/guvenlik.php" class="relative flex items-center rounded-2.5xl border border-jacarta-100 bg-white p-2 transition-shadow hover:shadow-lg dark:border-jacarta-700 dark:bg-jacarta-700">
-        <picture>
-            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/guvenlik.webp" type="image/webp">
-            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/guvenlik.png" type="image/png">
-            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/guvenlik.png" class="mr-2 h-12 w-12 flex-shrink-0">
-        </picture>
-        <div>
-            <h3 class="mb-1 ml-3 font-display text-xl font-semibold text-jacarta-700 dark:text-white">
-                Güvenlik
-            </h3>
-        </div>
-    </a>
-    <a href="/profil/siparislerim.php" class="relative flex items-center rounded-2.5xl border border-jacarta-100 bg-white p-2 transition-shadow hover:shadow-lg dark:border-jacarta-700 dark:bg-jacarta-700">
-        <picture>
-            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/sepet.webp" type="image/webp">
-            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/sepet.png" type="image/png">
-            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/sepet.png" class="mr-2 h-12 w-12 flex-shrink-0">
-        </picture>
-        <div>
-            <h3 class="mb-1 ml-3 font-display text-xl font-semibold text-jacarta-700 dark:text-white">
-                Siparişlerim
-            </h3>
-        </div>
-    </a>
     <a href="/profil/yatirimlarim.php" class="relative flex items-center rounded-2.5xl border border-jacarta-100 bg-white p-3 transition-shadow hover:shadow-lg dark:border-jacarta-700 dark:bg-jacarta-700">
         <picture>
             <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/odeme.webp" type="image/webp">
@@ -47,6 +23,20 @@
             </h3>
         </div>
     </a>
+
+    <a href="/profil/siparislerim.php" class="relative flex items-center rounded-2.5xl border border-jacarta-100 bg-white p-2 transition-shadow hover:shadow-lg dark:border-jacarta-700 dark:bg-jacarta-700">
+        <picture>
+            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/sepet.webp" type="image/webp">
+            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/sepet.png" type="image/png">
+            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/sepet.png" class="mr-2 h-12 w-12 flex-shrink-0">
+        </picture>
+        <div>
+            <h3 class="mb-1 ml-3 font-display text-xl font-semibold text-jacarta-700 dark:text-white">
+                Siparişlerim
+            </h3>
+        </div>
+    </a>
+
     <a href="/profil/fiziksel-altina-cevir.php" class="relative flex items-center rounded-2.5xl border border-jacarta-100 bg-white p-3 transition-shadow hover:shadow-lg dark:border-jacarta-700 dark:bg-jacarta-700">
         <picture>
             <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/cevir.webp" type="image/webp">
@@ -56,6 +46,18 @@
         <div>
             <h3 class="mb-1 ml-3 font-display text-xl font-semibold text-jacarta-700 dark:text-white">
                 Fiziksel Altına Çevir
+            </h3>
+        </div>
+    </a>
+    <a href="/profil/guvenlik.php" class="relative flex items-center rounded-2.5xl border border-jacarta-100 bg-white p-2 transition-shadow hover:shadow-lg dark:border-jacarta-700 dark:bg-jacarta-700">
+        <picture>
+            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/nasil-milyem/guvenlik.webp" type="image/webp">
+            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/guvenlik.png" type="image/png">
+            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/nasil-milyem/guvenlik.png" class="mr-2 h-12 w-12 flex-shrink-0">
+        </picture>
+        <div>
+            <h3 class="mb-1 ml-3 font-display text-xl font-semibold text-jacarta-700 dark:text-white">
+                Güvenlik
             </h3>
         </div>
     </a>
