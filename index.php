@@ -26,69 +26,89 @@
 
         <div class="ml-auto mr-auto h-full max-w-[91rem] px-4 z-20 relative">
           <div class="h-full items-center gap-4 lg:grid lg:grid-cols-12">
-            <div class="col-span-7 flex h-full flex-col items-center justify-start py-10 lg:items-start lg:py-20">
-              <p class="mb-2 max-w-md text-center text-lg dark:text-jacarta-200 lg:text-left">
-                <span class="font-herculanum text-xl"> "Kapalı Çarşı Derneğİ"</span> güvencesiyle
-              </p>
-              <h1 class="mb-8 text-center font-display text-5xl text-jacarta-700 dark:text-white lg:text-left lg:text-6xl">
-              Altın Değerinde Yatırımlar <br> <span class="text-[#9c6e12]">Milyem Gold</span>  'da!
-              </h1>
+              <div class="col-span-7 flex h-full flex-col items-center justify-start py-10 lg:items-start lg:py-20">
+                  <!-- Slider container -->
+                  <div class="slider-container relative w-full overflow-hidden mb-12">
+                      <div class="slider-wrapper flex">
+                          <!-- Slide 1 -->
+                          <div class="slide w-full flex-shrink-0 px-4">
+                              <div class="slide-content">
+                                  <p class="slide-text mb-2 text-xl dark:text-jacarta-200">
+                                      <span class="font-herculanum">"Kapalı Çarşı"</span> güvencesiyle..
+                                  </p>
+                                  <h1 class="slide-title mb-8 font-display text-4xl sm:text-5xl lg:text-6xl text-jacarta-700 dark:text-white">
+                                      Altın Değerinde Yatırımlar <br> <span class="text-[#9c6e12]">Milyem Gold</span> 'da
+                                  </h1>
+                              </div>
+                          </div>
+                          <!-- Slide 2 -->
+                          <div class="slide w-full flex-shrink-0 px-4">
+                              <div class="slide-content">
+                                  <p class="slide-text mb-2 text-xl dark:text-jacarta-200">
+                                      <span class="font-herculanum">"Kapalı Çarşı"</span> güvencesiyle..
+                                  </p>
+                                  <h1 class="slide-title mb-8 font-display text-4xl sm:text-5xl lg:text-6xl text-jacarta-700 dark:text-white">
+                                      Gram Altının Binde Biri <span class="text-[#9c6e12]">Milyem</span> İle Yatırımınız Güvende
+                                  </h1>
+                              </div>
+                          </div>
+                          <!-- Slide 3 -->
+                          <div class="slide w-full flex-shrink-0 px-4">
+                              <div class="slide-content">
+                                  <p class="slide-text mb-2 text-xl dark:text-jacarta-200">
+                                      <span class="font-herculanum">"Kapalı Çarşı"</span> güvencesiyle..
+                                  </p>
+                                  <h1 class="slide-title mb-8 font-display text-4xl sm:text-5xl lg:text-6xl text-jacarta-700 dark:text-white">
+                                      Fiziksel Altın <br> <span class="text-[#9c6e12]">Milyem Gold</span> ile Cebinizde
+                                  </h1>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
-              <div class="flex space-x-4 justify-around w-full">
-                  <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                  <figure class="mr-2 2xl:mr-4 shrink-0">
-                    <a href="#" class="relative block">
-                        <picture>
-                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/100_100.webp" type="image/webp">
-                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" type="image/png">
-                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
-                        </picture>
-                    </a>
-                  </figure>
-                  <div>
-                    <a href="/satin-al.php" class="block">
-                      <span class="font-bold text-lg 2xl:text-xl text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Milyem Al</span>
-                    </a>
-                    <span class="text-sm dark:text-jacarta-300">3,030 TL</span>
+                  <div class="flex space-x-4 justify-around w-full">
+                      <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satinal.html';">
+                          <figure class="mr-2 2xl:mr-4 shrink-0">
+                              <a href="#" class="relative block">
+                                  <img src="img/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy">
+                              </a>
+                          </figure>
+                          <div>
+                              <a href="/satinal.html" class="block">
+                                  <span class="font-bold text-lg 2xl:text-xl text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Milyem Al</span>
+                              </a>
+                              <span class="text-sm dark:text-jacarta-300">3,030 TL</span>
+                          </div>
+                      </div>
+                      <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satinal.html';">
+                          <figure class="mr-2 2xl:mr-4 shrink-0">
+                              <a href="#" class="relative block">
+                                  <img src="img/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy">
+                              </a>
+                          </figure>
+                          <div>
+                              <a href="/satinal.html" class="block">
+                                  <span class="font-bold text-lg 2xl:text-xl text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Milyem Sat</span>
+                              </a>
+                              <span class="text-sm dark:text-jacarta-300">3,013 TL</span>
+                          </div>
+                      </div>
+                      <div class="cursor-pointer group flex rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satinal.html';">
+                          <figure class="mr-2 2xl:mr-4">
+                              <a href="#" class="relative block">
+                                  <img src="img/milyem/coin_milyem.png" alt="milyem gold" class="rounded-2lg max-w-[55px] transition-transform duration-500 animate-spin-mid" loading="lazy">
+
+                              </a>
+                          </figure>
+                          <div>
+                              <a href="/satinal.html" class="block">
+                                  <span class="font-bold text-lg 2xl:text-xl text-jacarta-700 group-hover:text-[#caa754] dark:text-white">Fiziki Altına Çevir</span>
+                              </a>
+                              <span class="text-sm dark:text-jacarta-300">1.000 MLYM = 1 Gr Altın</span>
+                          </div>
+                      </div>
                   </div>
-                </div>
-                <div class="cursor-pointer group flex items-center rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                  <figure class="mr-2 2xl:mr-4 shrink-0">
-                    <a href="#" class="relative block">
-                        <picture>
-                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/100_100.webp" type="image/webp">
-                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" type="image/png">
-                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/100_100.png" alt="milyem gold" class="rounded-2lg max-w-[50px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
-                        </picture>
-                    </a>
-                  </figure>
-                  <div>
-                    <a href="/satin-al.php" class="block">
-                      <span class="font-bold text-lg 2xl:text-xl text-jacarta-700 group-hover:text-[#caa754] dark:text-white whitespace-nowrap">Milyem Sat</span>
-                    </a>
-                    <span class="text-sm dark:text-jacarta-300">3,013 TL</span>
-                  </div>
-                </div>
-                <div class="cursor-pointer group flex rounded-2.5xl border border-[#caa754] bg-white py-4 px-3 2xl:px-5 transition-shadow group-hover:shadow-lg dark:border-transparent dark:bg-jacarta-700" onclick="window.location.href='/satin-al.php';">
-                  <figure class="mr-2 2xl:mr-4">
-                    <a href="#" class="relative block">
-                        <picture>
-                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/webp/milyem/coin_milyem.webp" type="image/webp">
-                            <source srcset="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/coin_milyem.png" type="image/png">
-                            <img src="https://thorne.fra1.cdn.digitaloceanspaces.com/milyem/milyem/coin_milyem.png" alt="milyem coin" class="rounded-2lg max-w-[55px] transition-transform duration-500 animate-spin-mid" loading="lazy" />
-                        </picture>
-                    </a>
-                  </figure>
-                  <div>
-                    <a href="/satin-al.php" class="block">
-                      <span class="font-bold text-lg 2xl:text-xl text-jacarta-700 group-hover:text-[#caa754] dark:text-white">Fiziki Altına Çevir</span>
-                    </a>
-                    <span class="text-sm dark:text-jacarta-300">1.000 MLYM = 1 Gr Altın</span>
-                  </div>
-                </div>
               </div>
-            </div>
-
             <!-- Hero image -->
             <div class="col-span-5">
               <div class="relative text-center lg:pl-32 lg:text-right">
@@ -1150,5 +1170,222 @@
     });
   });
 </script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sliderWrapper = document.querySelector('.slider-wrapper');
+            const slides = document.querySelectorAll('.slide');
+            const dots = document.querySelectorAll('.slider-dot');
+            let currentSlide = 0;
+            let slideInterval;
+
+            function showSlide(index) {
+                // Tüm slide'ları deaktif et
+                slides.forEach(slide => {
+                    slide.classList.remove('active');
+                });
+
+                // Slide geçişi
+                sliderWrapper.style.transform = `translateX(-${index * 100}%)`;
+
+                // Dot'ları güncelle
+                dots.forEach((dot, i) => {
+                    dot.classList.toggle('active', i === index);
+                });
+
+                // Yeni slide'ı aktif et ve animasyonları başlat
+                setTimeout(() => {
+                    slides[index].classList.add('active');
+                }, 50);
+            }
+
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }
+
+            function startAutoSlide() {
+                slideInterval = setInterval(nextSlide, 6000); // 6 saniye
+            }
+
+            function stopAutoSlide() {
+                clearInterval(slideInterval);
+            }
+
+            // Click handlers for dots
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    if (currentSlide !== index) {
+                        currentSlide = index;
+                        showSlide(currentSlide);
+                        stopAutoSlide();
+                        startAutoSlide();
+                    }
+                });
+            });
+
+            // Hover handlers
+            sliderWrapper.addEventListener('mouseenter', stopAutoSlide);
+            sliderWrapper.addEventListener('mouseleave', startAutoSlide);
+
+            // Touch events for mobile
+            let touchStartX = 0;
+            let touchEndX = 0;
+
+            sliderWrapper.addEventListener('touchstart', e => {
+                touchStartX = e.changedTouches[0].screenX;
+                stopAutoSlide();
+            });
+
+            sliderWrapper.addEventListener('touchend', e => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+                startAutoSlide();
+            });
+
+            function handleSwipe() {
+                const swipeThreshold = 50;
+                const diff = touchStartX - touchEndX;
+
+                if (Math.abs(diff) > swipeThreshold) {
+                    if (diff > 0) {
+                        currentSlide = (currentSlide + 1) % slides.length;
+                    } else {
+                        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                    }
+                    showSlide(currentSlide);
+                }
+            }
+
+            // İlk slide'ı göster ve otomatik geçişi başlat
+            showSlide(0);
+            startAutoSlide();
+        });
+    </script>
+
+    <style>
+        .slider-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .slider-wrapper {
+            display: flex;
+            transition: transform 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
+        .slide {
+            width: 100%;
+            flex-shrink: 0;
+        }
+
+        .slide-content {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .slide.active .slide-content {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .slide-text {
+            animation: none;
+        }
+
+        .slide-title {
+            animation: none;
+        }
+
+        .slide.active .slide-text {
+            animation: slideInRight 0.8s ease forwards;
+        }
+
+        .slide.active .slide-title {
+            animation: slideInLeft 0.8s ease 0.2s forwards;
+        }
+
+        .slider-dot {
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .slider-dot.active {
+            background: #caa754;
+            transform: scale(1.3);
+            box-shadow: 0 0 15px rgba(202, 167, 84, 0.5);
+        }
+
+        .slider-dot:hover {
+            background: #caa754;
+            transform: scale(1.2);
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Mevcut stiller aynı kalacak, sadece yeni animasyonlar ekleniyor */
+
+        .slide:nth-child(3) .slide-text {
+            animation: slideInBottom 0.8s ease forwards;
+        }
+
+        .slide:nth-child(3) .slide-title {
+            animation: slideInTop 0.8s ease 0.2s forwards;
+        }
+
+        @keyframes slideInBottom {
+            from {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInTop {
+            from {
+                opacity: 0;
+                transform: translateY(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
   </body>
 </html>
